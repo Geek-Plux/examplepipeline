@@ -241,3 +241,17 @@ Example :
 ```vue
 // use icon from collection "Simple Icons" and name icon is "nuxtdotjs"
 <IconSimpleIcons:nuxtdotjs />
+
+// use icon from collection "Unicons" and name icon is "sun"
+<IconUil:sun />
+```
+### Precommit and Postmerge
+This project using husky and commitlint for precommit and postmerge.
+when you commit, it will check your commit message and running "pnpm lint-staged" to check your staged files.
+configuration in : `/path/to/.husky/pre-commit` and `/path/to/commitlint.config.js`
+
+And when Postmerge, it will run "pnpm" to automatically install new dependencies.
+configuration in `/path/to/.husky/post-merge`
+
+## License
+This project is licensed under the MIT license, Copyright (c) 2022 Alfian Dwi Nugraha. For more information see the [LICENSE](LICENSE.md) file.
