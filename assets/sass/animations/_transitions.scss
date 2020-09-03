@@ -8,4 +8,10 @@
 .page-enter-from,
 .page-leave-to {
   transform: translateY(20px);
-  o
+  opacity: 0;
+}
+
+// layout transition
+.layout-enter-active {
+  transition: all 0.1s ease-out;
+}
