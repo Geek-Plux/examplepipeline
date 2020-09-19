@@ -8,4 +8,7 @@
   width: 16px;
 }
 ::-webkit-scrollbar-track {
-  background:
+  background: theme('colors.gray.100');
+  border-left: 1px solid theme('colors.gray.200');
+}
+::-webkit-scrollbar-thum
