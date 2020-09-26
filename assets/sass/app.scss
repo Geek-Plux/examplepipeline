@@ -11,4 +11,7 @@
   background: theme('colors.gray.100');
   border-left: 1px solid theme('colors.gray.200');
 }
-::-webkit-scrollbar-thum
+::-webkit-scrollbar-thumb {
+  border: 4px solid theme('colors.gray.100');
+  background-clip: padding-box;
+  border-r
