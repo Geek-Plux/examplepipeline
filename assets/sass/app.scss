@@ -14,4 +14,7 @@
 ::-webkit-scrollbar-thumb {
   border: 4px solid theme('colors.gray.100');
   background-clip: padding-box;
-  border-r
+  border-radius: 9999px;
+  background-color: theme('colors.slate.300');
+}
+::-webkit-scrollbar-thumb:ho
