@@ -21,4 +21,6 @@
   background-color: theme('colors.slate.400');
 }
 html.dark {
-  ::-webki
+  ::-webkit-scrollbar-track {
+    background: theme('colors.slate.800');
+    border-left: 1px solid theme
