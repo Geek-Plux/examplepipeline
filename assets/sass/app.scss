@@ -17,4 +17,8 @@
   border-radius: 9999px;
   background-color: theme('colors.slate.300');
 }
-::-webkit-scrollbar-thumb:ho
+::-webkit-scrollbar-thumb:hover {
+  background-color: theme('colors.slate.400');
+}
+html.dark {
+  ::-webki
