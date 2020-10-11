@@ -27,3 +27,7 @@ html.dark {
   }
   ::-webkit-scrollbar-thumb {
     border-color: theme('colors.slate.800');
+    background-color: theme('colors.slate.500');
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: theme('color
