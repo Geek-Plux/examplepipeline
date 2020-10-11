@@ -23,4 +23,7 @@
 html.dark {
   ::-webkit-scrollbar-track {
     background: theme('colors.slate.800');
-    border-left: 1px solid theme
+    border-left: 1px solid theme('colors.slate.700');
+  }
+  ::-webkit-scrollbar-thumb {
+    border-color: theme('colors.slate.800');
