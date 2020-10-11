@@ -30,4 +30,9 @@ html.dark {
     background-color: theme('colors.slate.500');
   }
   ::-webkit-scrollbar-thumb:hover {
-    background-color: theme('color
+    background-color: theme('colors.slate.400');
+  }
+}
+
+// animations
+@import 'animations/transitions';
