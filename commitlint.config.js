@@ -9,4 +9,10 @@ module.exports = {
         'fix',
         'docs',
         'chore',
-        's
+        'style',
+        'refactor',
+        'ci',
+        'test',
+        'revert',
+        'perf',
+       
