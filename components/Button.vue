@@ -4,4 +4,10 @@ const props = defineProps({
     type: String,
     default: '',
   },
-  type: 
+  type: {
+    type: String,
+    default: 'primary',
+  },
+  size: {
+    type: String,
+    default: 'md',
