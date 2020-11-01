@@ -11,3 +11,10 @@ const props = defineProps({
   size: {
     type: String,
     default: 'md',
+  },
+  to: {
+    type: [String, Object],
+    default: undefined,
+  },
+  href: {
+    type
