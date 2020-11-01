@@ -17,4 +17,12 @@ const props = defineProps({
     default: undefined,
   },
   href: {
-    type
+    type: String,
+    default: undefined,
+  },
+})
+
+// state:styles
+const defaultStyle = `
+  cursor-pointer
+  border tra
