@@ -25,4 +25,5 @@ const props = defineProps({
 // state:styles
 const defaultStyle = `
   cursor-pointer
-  border tra
+  border transition-color duration-300
+  focus:outline-none focus:ring-1 focus:ring-offset-1 focus:dark:ring-
