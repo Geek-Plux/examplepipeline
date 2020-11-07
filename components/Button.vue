@@ -26,4 +26,10 @@ const props = defineProps({
 const defaultStyle = `
   cursor-pointer
   border transition-color duration-300
-  focus:outline-none focus:ring-1 focus:ring-offset-1 focus:dark:ring-offset-gray-50 focus:dark:ring-gray-400 focus:ring-gray-600/[0.6] focus:ring-offset-gray-800/
+  focus:outline-none focus:ring-1 focus:ring-offset-1 focus:dark:ring-offset-gray-50 focus:dark:ring-gray-400 focus:ring-gray-600/[0.6] focus:ring-offset-gray-800/[0.6]
+  flex items-center justify-center font-semibold
+`
+const styles = reactive<{
+  [key: string]: string
+}>({
+  n
