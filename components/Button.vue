@@ -32,4 +32,5 @@ const defaultStyle = `
 const styles = reactive<{
   [key: string]: string
 }>({
-  n
+  none: '',
+  primary: 'text-white bg-primary-500 hover:bg-primary-400 border-primary-500'
