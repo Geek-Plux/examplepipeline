@@ -37,4 +37,4 @@ const styles = reactive<{
   secondary:
     'text-slate-800 bg-gray-200 border-gray-200 hover:bg-gray-300 dark:text-white dark:border-slate-800 dark:bg-slate-800 dark:hover:bg-slate-700',
   opposite:
-    'text-white bg-gra
+    'text-white bg-gray-800 hover:bg-white hover:text-gray-800 hover:border-gray-900 dark:tex
