@@ -39,3 +39,8 @@ const styles = reactive<{
   opposite:
     'text-white bg-gray-800 hover:bg-white hover:text-gray-800 hover:border-gray-900 dark:text-gray-800 dark:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-100 dark:border-white',
 })
+const sizes = reactive<{
+  [key: string]: string
+}>({
+  lg: 'h-13 px-8 text-lg rounded-lg',
+  md: 'h-
