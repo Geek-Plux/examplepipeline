@@ -48,4 +48,6 @@ const sizes = reactive<{
   xs: 'h-6 px-3 text-xs rounded',
 })
 
-// s
+// state
+const selectedStyle = computed(() =>
+  props.type in styles ? styles[props.type] : styles.pr
