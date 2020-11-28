@@ -69,4 +69,8 @@ const onClick = (event: MouseEvent) => {
 <template>
   <NuxtLink
     v-if="to"
-    t
+    tag="a"
+    :to="to"
+    :class="`${defaultStyle} ${selectedStyle} ${selectedSize}`"
+  >
+    <s
