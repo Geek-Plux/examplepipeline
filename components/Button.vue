@@ -60,4 +60,13 @@ const onClick = (event: MouseEvent) => {
   if (props.to) {
     router.push(props.to)
   }
-  if (!props.h
+  if (!props.href) {
+    event.preventDefault()
+  }
+}
+</script>
+
+<template>
+  <NuxtLink
+    v-if="to"
+    t
