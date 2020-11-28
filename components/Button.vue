@@ -73,4 +73,8 @@ const onClick = (event: MouseEvent) => {
     :to="to"
     :class="`${defaultStyle} ${selectedStyle} ${selectedSize}`"
   >
-    <s
+    <slot>{{ text }}</slot>
+  </NuxtLink>
+  <a
+    v-else
+    :class="`${defaultStyle} ${selectedStyle} ${s
