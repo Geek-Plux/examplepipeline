@@ -55,4 +55,9 @@ const selectedStyle = computed(() =>
 const selectedSize = computed(() => sizes[props.size] || sizes.lg)
 
 // methods
-const onClick = (event: 
+const onClick = (event: MouseEvent) => {
+  const router = useRouter()
+  if (props.to) {
+    router.push(props.to)
+  }
+  if (!props.h
