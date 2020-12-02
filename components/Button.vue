@@ -83,4 +83,4 @@ const onClick = (event: MouseEvent) => {
   >
     <slot>{{ text }}</slot>
   </a>
-</templat
+</template>
