@@ -1,4 +1,12 @@
 <script lang="ts" setup>
 defineProps({
   disabled: {
-    typ
+    type: Boolean,
+    required: false,
+  },
+})
+</script>
+
+<template>
+  <div
+    class="card duration-300 transition-col
