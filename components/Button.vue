@@ -77,4 +77,10 @@ const onClick = (event: MouseEvent) => {
   </NuxtLink>
   <a
     v-else
-    :class="`${defaultStyle} ${selectedStyle} ${s
+    :class="`${defaultStyle} ${selectedStyle} ${selectedSize}`"
+    :href="href"
+    @click="onClick"
+  >
+    <slot>{{ text }}</slot>
+  </a>
+</templat
