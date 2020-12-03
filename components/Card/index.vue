@@ -13,4 +13,8 @@ defineProps({
   >
     <div
       v-if="disabled"
-      class="absolute z-10 top-0 lef
+      class="absolute z-10 top-0 left-0 w-full h-full bg-slate-800/[0.75] cursor-not-allowed"
+    />
+    <slot />
+  </div>
+</template>
