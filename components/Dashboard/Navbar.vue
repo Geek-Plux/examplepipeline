@@ -16,4 +16,5 @@
         >
           <LanguageSwitcher />
           <ThemeSwitcher />
-   
+          <Anchor
+            class="hover:no-underline hover:text-slate-900 hover:d
