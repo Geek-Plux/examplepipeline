@@ -21,4 +21,9 @@
             href="https://github.com/viandwi24/nuxt3-awesome-starter"
             title="Github"
           >
-            <IconMdi:git
+            <IconMdi:github-face />
+          </Anchor>
+        </div>
+      </div>
+    </template>
+    <tem
