@@ -26,4 +26,6 @@
         </div>
       </div>
     </template>
-    <tem
+    <template #options="{ toggleOptions }">
+      <ActionSheet @on-close="toggleOptions(false)">
+     
