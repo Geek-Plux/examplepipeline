@@ -40,4 +40,8 @@
             {{ $t('components.language_switcher.change_language') }}
           </div>
           <div class="mt-2">
-            <LanguageS
+            <LanguageSwitcher type="select-box" />
+          </div>
+        </ActionSheetBody>
+        <Button
+          type
