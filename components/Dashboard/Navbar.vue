@@ -44,4 +44,7 @@
           </div>
         </ActionSheetBody>
         <Button
-          type
+          type="secondary"
+          title="Github"
+          href="https://github.com/viandwi24/nuxt3-awesome-starter"
+      
