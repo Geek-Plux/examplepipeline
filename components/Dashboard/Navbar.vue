@@ -56,4 +56,8 @@
           type="secondary"
           @click.prevent="toggleOptions(false)"
         />
+      </ActionSheet>
+    </template>
+    <template #drawer>
+      <slot name="drawer" />
   
