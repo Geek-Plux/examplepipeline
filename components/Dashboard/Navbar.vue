@@ -60,4 +60,6 @@
     </template>
     <template #drawer>
       <slot name="drawer" />
-  
+    </template>
+  </BuilderNavbar>
+</template>
