@@ -52,4 +52,8 @@
           <span class="ml-1">Github</span>
         </Button>
         <Button
-          tex
+          text="Close"
+          type="secondary"
+          @click.prevent="toggleOptions(false)"
+        />
+  
