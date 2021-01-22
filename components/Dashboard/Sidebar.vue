@@ -6,4 +6,8 @@ export default defineComponent({
       default: 'normal',
     },
   },
-  setup() 
+  setup() {
+    const sidebar = ref(null)
+
+    onMounted(() => {
+      // const { onScroll } = useSticky
