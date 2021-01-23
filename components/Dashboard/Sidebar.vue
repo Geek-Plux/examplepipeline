@@ -30,4 +30,6 @@ export default defineComponent({
       'relative flex-1 flex flex-col w-full': mode === 'mobile',
     }"
   >
-    <div class="flex-1 ove
+    <div class="flex-1 overflow-y-auto pl-4 lg:pl-0 pr-4 py-4">
+      <ul>
+        <li v-for="i in 29" :key="i">
