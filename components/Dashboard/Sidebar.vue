@@ -25,4 +25,6 @@ export default defineComponent({
   <div
     ref="sidebar"
     :class="{
-      'fixed top-0 h
+      'fixed top-0 hidden pt-12 lg:flex lg:w-60 xl:w-80 h-screen':
+        mode === 'normal',
+      'relative fle
