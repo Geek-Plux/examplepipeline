@@ -15,4 +15,14 @@ export default defineComponent({
     })
 
     return {
-  
+      sidebar,
+    }
+  },
+})
+</script>
+
+<template>
+  <div
+    ref="sidebar"
+    :class="{
+      'fixed top-0 h
