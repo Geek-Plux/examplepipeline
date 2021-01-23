@@ -27,4 +27,7 @@ export default defineComponent({
     :class="{
       'fixed top-0 hidden pt-12 lg:flex lg:w-60 xl:w-80 h-screen':
         mode === 'normal',
-      'relative fle
+      'relative flex-1 flex flex-col w-full': mode === 'mobile',
+    }"
+  >
+    <div class="flex-1 ove
