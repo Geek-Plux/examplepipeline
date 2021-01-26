@@ -35,4 +35,7 @@ export default defineComponent({
         <li v-for="i in 29" :key="i">
           <Anchor
             :to="{ name: 'dashboard' }"
-            class="group flex
+            class="group flex items-center mb-4 hover:no-underline"
+          >
+            <div
+              class="flex items-center mr-4 px-2 py
