@@ -42,4 +42,8 @@ export default defineComponent({
               :class="{
                 'text-white dark:text-white group-hover:bg-sky-500 bg-sky-500':
                   i === 1,
-                'text-slate-500 dark:text-gray-100 group-hover:bg-gray-200 bg-gray-100 dark:group-hover:bg-slate-
+                'text-slate-500 dark:text-gray-100 group-hover:bg-gray-200 bg-gray-100 dark:group-hover:bg-slate-600 dark:bg-slate-700':
+                  i !== 1,
+              }"
+            >
+          
