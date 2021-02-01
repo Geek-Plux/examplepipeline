@@ -51,4 +51,7 @@ export default defineComponent({
             <span
               class="text-sm font-semibold capitalize"
               :class="{
-                'font-extrabold text-s
+                'font-extrabold text-sky-500 dark:text-sky-400': i === 1,
+              }"
+            >
+              {{ $t('pages.dashboard.
