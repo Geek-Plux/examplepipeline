@@ -49,4 +49,6 @@ export default defineComponent({
               <IconUil:apps class="text-xs" />
             </div>
             <span
-              class="text-
+              class="text-sm font-semibold capitalize"
+              :class="{
+                'font-extrabold text-s
