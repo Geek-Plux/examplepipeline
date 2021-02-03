@@ -54,4 +54,11 @@ export default defineComponent({
                 'font-extrabold text-sky-500 dark:text-sky-400': i === 1,
               }"
             >
-              {{ $t('pages.dashboard.
+              {{ $t('pages.dashboard.index.nav') }}
+            </span>
+          </Anchor>
+        </li>
+      </ul>
+    </div>
+  </div>
+</tem
