@@ -41,3 +41,37 @@ onMounted(() => {
     emit('update:modelValue', true)
     if (input.value) input.value.checked = true
   }
+})
+</script>
+
+<template>
+  <label :for="id" class="flex cursor-pointer">
+    <label
+      :for="id"
+      class="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in"
+    >
+      <input
+        :id="id"
+        ref="input"
+        type="checkbox"
+        class="switch-checkbox absolute block w-6 h-6 rounded-full bg-white dark:bg-slate-900 border-2 border-slate-300 dark:border-slate-600 appearance-none cursor-pointer"
+        :checked="checked"
+        @change="onInputChange"
+      />
+      <label
+        :for="id"
+        class="switch-label block overflow-hidden h-6 rounded-full bg-gray-200 dark:bg-slate-700 cursor-pointer border border-slate-300 dark:border-slate-500"
+      />
+    </label>
+    <slot />
+  </label>
+</template>
+
+<style>
+.switch-checkbox:checked {
+  right: 0;
+}
+.switch-checkbox:checked + .switch-label {
+  @apply bg-primary-500;
+}
+</style>
