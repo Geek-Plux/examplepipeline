@@ -1,4 +1,11 @@
 <script lang="ts" setup>
 // compiler macro
 const props = defineProps({
-  mod
+  modelValue: {
+    type: String,
+    default: '',
+  },
+  placeholder: {
+    type: String,
+    default: '',
+  
