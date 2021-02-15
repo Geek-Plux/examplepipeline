@@ -15,4 +15,8 @@ const props = defineProps({
   },
   type: {
     type: String,
-    default: '
+    default: 'default',
+  },
+})
+const emit = defineEmits(['update:modelValue'])
+const slots = useSlots()
