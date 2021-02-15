@@ -8,4 +8,11 @@ const props = defineProps({
   placeholder: {
     type: String,
     default: '',
-  
+  },
+  size: {
+    type: String,
+    default: 'md',
+  },
+  type: {
+    type: String,
+    default: '
