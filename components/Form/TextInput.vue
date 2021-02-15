@@ -20,3 +20,9 @@ const props = defineProps({
 })
 const emit = defineEmits(['update:modelValue'])
 const slots = useSlots()
+
+// list styles
+const paddingStyles = reactive<{
+  [key: string]: string
+}>({
+  xs: 'px-1 py-0.5'
