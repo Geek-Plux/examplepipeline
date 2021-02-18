@@ -36,4 +36,9 @@ const fontSizeStyles = reactive<{
   xs: 'text-xs',
   sm: 'text-sm',
   md: 'text-base',
-  lg: 'tex
+  lg: 'text-lg',
+})
+
+// states
+const modelValue = useSyncProps<string>(props, 'modelValue', emit)
+const havePreEl = 
