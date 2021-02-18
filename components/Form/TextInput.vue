@@ -30,4 +30,10 @@ const paddingStyles = reactive<{
   md: 'px-4 py-2',
   lg: 'px-5 py-3',
 })
-const fontSizeStyles = 
+const fontSizeStyles = reactive<{
+  [key: string]: string
+}>({
+  xs: 'text-xs',
+  sm: 'text-sm',
+  md: 'text-base',
+  lg: 'tex
