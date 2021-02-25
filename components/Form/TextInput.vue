@@ -41,4 +41,7 @@ const fontSizeStyles = reactive<{
 
 // states
 const modelValue = useSyncProps<string>(props, 'modelValue', emit)
-const havePreEl = 
+const havePreEl = computed(
+  () =>
+    typeof slots.prefix !== 'undefined' ||
+    typeof slots['prefix-disabled'] !== '
