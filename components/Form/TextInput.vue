@@ -44,4 +44,7 @@ const modelValue = useSyncProps<string>(props, 'modelValue', emit)
 const havePreEl = computed(
   () =>
     typeof slots.prefix !== 'undefined' ||
-    typeof slots['prefix-disabled'] !== '
+    typeof slots['prefix-disabled'] !== 'undefined'
+)
+const haveSuEl = computed(() => typeof slots.suffix !== 'undefined')
+cons
