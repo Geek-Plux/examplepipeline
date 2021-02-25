@@ -47,4 +47,5 @@ const havePreEl = computed(
     typeof slots['prefix-disabled'] !== 'undefined'
 )
 const haveSuEl = computed(() => typeof slots.suffix !== 'undefined')
-cons
+const selectedBorderStyle = computed(
+  () => 'border-gray-900/10 dark:border-gray-50/[0.2]'
