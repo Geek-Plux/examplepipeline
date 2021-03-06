@@ -54,4 +54,9 @@ const selectedOnHoverBorderStyle = computed(
   () => 'dark:focus:border-white focus:border-gray-900'
 )
 const selectedPaddingStyle = computed(
-  () => paddingStyles[props.size] || paddingSty
+  () => paddingStyles[props.size] || paddingStyles.md
+)
+const selectedFontSizeStyle = computed(
+  () => fontSizeStyles[props.size] || fontSizeStyles.md
+)
+</
