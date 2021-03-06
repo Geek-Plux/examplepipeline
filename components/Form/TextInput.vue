@@ -59,4 +59,9 @@ const selectedPaddingStyle = computed(
 const selectedFontSizeStyle = computed(
   () => fontSizeStyles[props.size] || fontSizeStyles.md
 )
-</
+</script>
+
+<template>
+  <div :class="`text-input-container relative flex`">
+    <div
+      v-if="slots['prefix-disa
