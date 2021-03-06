@@ -49,3 +49,6 @@ const havePreEl = computed(
 const haveSuEl = computed(() => typeof slots.suffix !== 'undefined')
 const selectedBorderStyle = computed(
   () => 'border-gray-900/10 dark:border-gray-50/[0.2]'
+)
+const selectedOnHoverBorderStyle = computed(
+  () => 'dark:focus:border-white focus:border-gray-900'
