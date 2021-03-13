@@ -77,4 +77,6 @@ const selectedFontSizeStyle = computed(
     </div>
     <div class="text-input-wrapper relative flex flex-1">
       <input
-        v-model="m
+        v-model="modelValue"
+        :class="`text-input w-full flex-1 bg-transparent outline-none border ${
+    
