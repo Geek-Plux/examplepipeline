@@ -74,4 +74,7 @@ const selectedFontSizeStyle = computed(
       :class="`flex rounded-l border ${selectedBorderStyle}`"
     >
       <slot name="prefix" />
- 
+    </div>
+    <div class="text-input-wrapper relative flex flex-1">
+      <input
+        v-model="m
