@@ -89,4 +89,9 @@ const selectedFontSizeStyle = computed(
     </div>
     <div
       v-if="slots.suffix"
-      :class=
+      :class="`flex rounded-r border ${selectedBorderStyle}`"
+    >
+      <slot name="suffix" />
+    </div>
+  </div>
+</template
