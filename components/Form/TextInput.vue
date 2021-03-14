@@ -94,4 +94,4 @@ const selectedFontSizeStyle = computed(
       <slot name="suffix" />
     </div>
   </div>
-</template
+</template>
