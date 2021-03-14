@@ -82,4 +82,6 @@ const selectedFontSizeStyle = computed(
           havePreEl ? '' : 'rounded-l'
         } ${
           haveSuEl ? '' : 'rounded-r'
-        } ${selected
+        } ${selectedBorderStyle} ${selectedOnHoverBorderStyle} ${selectedPaddingStyle} ${selectedFontSizeStyle}`"
+        :type="type"
+       
