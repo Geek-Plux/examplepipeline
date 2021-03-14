@@ -84,4 +84,9 @@ const selectedFontSizeStyle = computed(
           haveSuEl ? '' : 'rounded-r'
         } ${selectedBorderStyle} ${selectedOnHoverBorderStyle} ${selectedPaddingStyle} ${selectedFontSizeStyle}`"
         :type="type"
-       
+        :placeholder="placeholder"
+      />
+    </div>
+    <div
+      v-if="slots.suffix"
+      :class=
