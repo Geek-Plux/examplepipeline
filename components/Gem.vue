@@ -6,4 +6,6 @@ export default {
       ready: false,
     }
   },
-  asy
+  async mounted() {
+    const THREE = await import('three').then((m) => m.default || m)
+    const {
