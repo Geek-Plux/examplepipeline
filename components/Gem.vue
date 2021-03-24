@@ -8,4 +8,6 @@ export default {
   },
   async mounted() {
     const THREE = await import('three').then((m) => m.default || m)
-    const {
+    const { OrbitControls } = await import(
+      'three/examples/jsm/controls/OrbitControls.js'
+    ).then((m) =
