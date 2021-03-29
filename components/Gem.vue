@@ -12,4 +12,7 @@ export default {
       'three/examples/jsm/controls/OrbitControls.js'
     ).then((m) => m.default || m)
     const { GLTFLoader } = await import(
-      'three/examples/jsm/loaders/GLTFLoad
+      'three/examples/jsm/loaders/GLTFLoader.js'
+    ).then((m) => m.default || m)
+    // Canvas
+    let canvas = document.querySelector('ca
