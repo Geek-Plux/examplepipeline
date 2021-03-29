@@ -10,4 +10,6 @@ export default {
     const THREE = await import('three').then((m) => m.default || m)
     const { OrbitControls } = await import(
       'three/examples/jsm/controls/OrbitControls.js'
-    ).then((m) =
+    ).then((m) => m.default || m)
+    const { GLTFLoader } = await import(
+      'three/examples/jsm/loaders/GLTFLoad
