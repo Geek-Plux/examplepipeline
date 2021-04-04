@@ -15,4 +15,8 @@ export default {
       'three/examples/jsm/loaders/GLTFLoader.js'
     ).then((m) => m.default || m)
     // Canvas
-    let canvas = document.querySelector('ca
+    let canvas = document.querySelector('canvas.webgl')
+
+    // wait
+    while (!canvas) {
+      await new Promise((resolve) => setTimeout(re
