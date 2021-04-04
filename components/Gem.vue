@@ -19,4 +19,9 @@ export default {
 
     // wait
     while (!canvas) {
-      await new Promise((resolve) => setTimeout(re
+      await new Promise((resolve) => setTimeout(resolve, 50))
+      canvas = document.querySelector('canvas.webgl')
+    }
+
+    // Scene
+    cons
