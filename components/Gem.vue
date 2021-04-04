@@ -24,4 +24,10 @@ export default {
     }
 
     // Scene
-    cons
+    const scene = new THREE.Scene()
+
+    // Models
+    let gem
+    let light
+
+    const gltfLoad
