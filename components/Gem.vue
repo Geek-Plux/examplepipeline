@@ -30,4 +30,7 @@ export default {
     let gem
     let light
 
-    const gltfLoad
+    const gltfLoader = new GLTFLoader()
+    gltfLoader.load('/assets/gem/gem.gltf', (gltf) => {
+      // Gem
+  
