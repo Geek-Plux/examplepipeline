@@ -33,4 +33,7 @@ export default {
     const gltfLoader = new GLTFLoader()
     gltfLoader.load('/assets/gem/gem.gltf', (gltf) => {
       // Gem
-  
+      gem = gltf.scene.children[6]
+
+      // Material setup
+      // const textureLoader = new THREE.
