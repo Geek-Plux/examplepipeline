@@ -36,4 +36,6 @@ export default {
       gem = gltf.scene.children[6]
 
       // Material setup
-      // const textureLoader = new THREE.
+      // const textureLoader = new THREE.TextureLoader()
+      // const roughnessTexture = textureLoader.load('/assets/gem/roughness.jpeg')
+      // g
