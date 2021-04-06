@@ -38,4 +38,5 @@ export default {
       // Material setup
       // const textureLoader = new THREE.TextureLoader()
       // const roughnessTexture = textureLoader.load('/assets/gem/roughness.jpeg')
-      // g
+      // gem.material.roughnessMap = roughnessTexture
+      gem.material.displacementScale = 0.15
