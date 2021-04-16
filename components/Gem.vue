@@ -40,3 +40,6 @@ export default {
       // const roughnessTexture = textureLoader.load('/assets/gem/roughness.jpeg')
       // gem.material.roughnessMap = roughnessTexture
       gem.material.displacementScale = 0.15
+      gem.material.emissiveIntensity = 0.4
+      gem.material.refractionRatio = 1
+      gem.rotation.z = 
