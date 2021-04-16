@@ -42,4 +42,10 @@ export default {
       gem.material.displacementScale = 0.15
       gem.material.emissiveIntensity = 0.4
       gem.material.refractionRatio = 1
-      gem.rotation.z = 
+      gem.rotation.z = 0
+      // change color
+      scene.add(gem)
+
+      light = gltf.scene.children[0]
+      scene.add(light)
+      t
