@@ -48,4 +48,9 @@ export default {
 
       light = gltf.scene.children[0]
       scene.add(light)
-      t
+      this.ready = true
+    })
+
+    // Lights
+    const ambientLight = new THREE.AmbientLight(0xffffff, 2)
+  
