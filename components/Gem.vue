@@ -59,4 +59,5 @@ export default {
     directionalLight.position.set(1, 1, 1)
     scene.add(directionalLight)
 
-    co
+    const directionalLight2 = new THREE.DirectionalLight(0xffffff, 3)
+    directionalLight2.position.set(-1, -1,
