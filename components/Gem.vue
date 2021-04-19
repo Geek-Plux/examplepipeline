@@ -65,3 +65,9 @@ export default {
 
     // Settings
     const sizes = {
+      width: 500,
+      height: 500,
+    }
+
+    // Base camera
+    const camera = n
