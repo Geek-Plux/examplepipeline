@@ -83,4 +83,8 @@ export default {
     const controls = new OrbitControls(camera, canvas)
     controls.enableZoom = false
     controls.target.set(0, 0.75, 0)
-    controls.enable
+    controls.enableDamping = true
+    controls.enablePan = false
+    // Lock Y Axis
+    controls.minPolarAngle = Math.PI / 2
+    control
