@@ -87,4 +87,7 @@ export default {
     controls.enablePan = false
     // Lock Y Axis
     controls.minPolarAngle = Math.PI / 2
-    control
+    controls.maxPolarAngle = Math.PI / 2
+
+    // Render
+    const renderer = new THREE.WebGLRenderer({
