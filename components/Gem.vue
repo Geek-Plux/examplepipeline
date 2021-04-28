@@ -80,4 +80,7 @@ export default {
     scene.add(camera)
 
     // Controls
-    const controls = new OrbitControls(camer
+    const controls = new OrbitControls(camera, canvas)
+    controls.enableZoom = false
+    controls.target.set(0, 0.75, 0)
+    controls.enable
