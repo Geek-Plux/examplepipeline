@@ -76,4 +76,8 @@ export default {
       0.1,
       100
     )
-    camera
+    camera.position.set(2, 2, 6)
+    scene.add(camera)
+
+    // Controls
+    const controls = new OrbitControls(camer
