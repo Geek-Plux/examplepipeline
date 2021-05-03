@@ -91,3 +91,8 @@ export default {
 
     // Render
     const renderer = new THREE.WebGLRenderer({
+      antialiasing: true,
+      canvas,
+      alpha: true,
+    })
+    renderer.setClearCo
