@@ -95,4 +95,6 @@ export default {
       canvas,
       alpha: true,
     })
-    renderer.setClearCo
+    renderer.setClearColor(0x000000, 0)
+    renderer.shadowMap.enabled = true
+    renderer.shadowMap.type = THREE.PCFSoftShadow
