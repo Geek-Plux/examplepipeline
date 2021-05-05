@@ -97,4 +97,6 @@ export default {
     })
     renderer.setClearColor(0x000000, 0)
     renderer.shadowMap.enabled = true
-    renderer.shadowMap.type = THREE.PCFSoftShadow
+    renderer.shadowMap.type = THREE.PCFSoftShadowMap
+    renderer.setSize(sizes.width, sizes.height)
+    renderer.setPixelRatio(Mat
