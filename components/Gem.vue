@@ -102,4 +102,8 @@ export default {
     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
 
     // Animations
-    const clock = new THREE
+    const clock = new THREE.Clock()
+    let previousTime = 0
+
+    const tick = () => {
+      const elapsedTime = clock.getElapsedTi
