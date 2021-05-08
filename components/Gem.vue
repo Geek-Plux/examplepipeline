@@ -109,4 +109,9 @@ export default {
       const elapsedTime = clock.getElapsedTime()
       const _deltaTime = elapsedTime - previousTime
       previousTime = elapsedTime
- 
+      if (gem) {
+        gem.rotation.y = 1.1 * elapsedTime
+      }
+
+      // Update controls
+   
