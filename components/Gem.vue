@@ -106,4 +106,7 @@ export default {
     let previousTime = 0
 
     const tick = () => {
-      const elapsedTime = clock.getElapsedTi
+      const elapsedTime = clock.getElapsedTime()
+      const _deltaTime = elapsedTime - previousTime
+      previousTime = elapsedTime
+ 
