@@ -128,4 +128,10 @@ export default {
 }
 </script>
 
-<template
+<template>
+  <canvas class="webgl" :style="{ opacity: ready ? 1 : 0 }" />
+</template>
+
+<style scoped>
+.webgl {
+  o
