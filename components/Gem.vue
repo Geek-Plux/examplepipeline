@@ -134,4 +134,10 @@ export default {
 
 <style scoped>
 .webgl {
-  o
+  outline: none;
+  width: 300px;
+  height: 300px;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+</
