@@ -140,4 +140,4 @@ export default {
   opacity: 0;
   transition: opacity 1s ease;
 }
-</
+</style>
