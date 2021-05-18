@@ -7,3 +7,9 @@ import {
   ListboxOption,
 } from '@headlessui/vue'
 import { availableLocales } from '~/utils/lang'
+
+// micro compiler
+const props = defineProps({
+  type: {
+    type: String,
+    default: 'dropd
