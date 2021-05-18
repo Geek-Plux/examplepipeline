@@ -12,4 +12,10 @@ import { availableLocales } from '~/utils/lang'
 const props = defineProps({
   type: {
     type: String,
-    default: 'dropd
+    default: 'dropdown-right-top',
+  },
+})
+
+// state
+const currentStyle = toRef(props, 'type')
+const localeSetting = useState<strin
