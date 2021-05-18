@@ -18,4 +18,10 @@ const props = defineProps({
 
 // state
 const currentStyle = toRef(props, 'type')
-const localeSetting = useState<strin
+const localeSetting = useState<string>('locale.setting')
+</script>
+
+<template>
+  <div class="flex items-center">
+    <Listbox
+      v-if="cur
