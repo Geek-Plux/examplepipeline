@@ -31,4 +31,8 @@ const localeSetting = useState<string>('locale.setting')
     >
       <ListboxLabel class="sr-only">Theme</ListboxLabel>
       <ListboxButton
-        type="button
+        type="button"
+        title="Change Language"
+        class="transition-colors duration-300"
+      >
+        <
