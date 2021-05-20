@@ -40,4 +40,4 @@ const localeSetting = useState<string>('locale.setting')
         </span>
       </ListboxButton>
       <ListboxOptions
-        class="p-1 absolute z-50 top-full right-0 outli
+        class="p-1 absolute z-50 top-full right-0 outline-none bg-white rounded-lg ring-1 ring-gray-900/10 shadow-lg overflow-hidden w-36 py-1 text-sm text
