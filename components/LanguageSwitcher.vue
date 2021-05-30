@@ -45,4 +45,6 @@ const localeSetting = useState<string>('locale.setting')
         <ListboxOption
           v-for="lang in availableLocales"
           :key="lang.iso"
-          :valu
+          :value="lang.iso"
+          :class="{
+            'py-2 px-2 flex items-center cursor-pointer': true,
