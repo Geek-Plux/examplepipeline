@@ -48,3 +48,5 @@ const localeSetting = useState<string>('locale.setting')
           :value="lang.iso"
           :class="{
             'py-2 px-2 flex items-center cursor-pointer': true,
+            'text-sky-500 bg-gray-100 dark:bg-gray-600/30':
+              localeSetting === lang.is
