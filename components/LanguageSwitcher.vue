@@ -59,4 +59,8 @@ const localeSetting = useState<string>('locale.setting')
           </span>
           <span class="flex-1 truncate">
             {{ lang.name }}
-            <span class="text-xs">({{ lang
+            <span class="text-xs">({{ lang.iso }})</span>
+          </span>
+        </ListboxOption>
+      </ListboxOptions>
+    </Listbox
