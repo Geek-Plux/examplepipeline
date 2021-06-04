@@ -51,4 +51,9 @@ const localeSetting = useState<string>('locale.setting')
             'text-sky-500 bg-gray-100 dark:bg-gray-600/30':
               localeSetting === lang.iso,
             'hover:bg-gray-50 dark:hover:bg-gray-700/30':
-              localeSetting !== lang.is
+              localeSetting !== lang.iso,
+          }"
+        >
+          <span class="text-sm mr-2">
+            {{ lang.flag }}
+          
