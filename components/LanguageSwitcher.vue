@@ -56,4 +56,7 @@ const localeSetting = useState<string>('locale.setting')
         >
           <span class="text-sm mr-2">
             {{ lang.flag }}
-          
+          </span>
+          <span class="flex-1 truncate">
+            {{ lang.name }}
+            <span class="text-xs">({{ lang
