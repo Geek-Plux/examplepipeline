@@ -63,4 +63,8 @@ const localeSetting = useState<string>('locale.setting')
           </span>
         </ListboxOption>
       </ListboxOptions>
-    </Listbox
+    </Listbox>
+    <select
+      v-if="currentStyle === 'select-box'"
+      v-model="localeSetting"
+      class="w
