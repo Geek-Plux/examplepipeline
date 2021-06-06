@@ -67,4 +67,7 @@ const localeSetting = useState<string>('locale.setting')
     <select
       v-if="currentStyle === 'select-box'"
       v-model="localeSetting"
-      class="w-full px-2 pr-3 py-1 outline-none rounded border bg-transparent text-gray-700 dark:text-gray-
+      class="w-full px-2 pr-3 py-1 outline-none rounded border bg-transparent text-gray-700 dark:text-gray-300 border-gray-900/10 dark:border-gray-50/[0.2]"
+    >
+      <option
+        v-for="lang in avai
