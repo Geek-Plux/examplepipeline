@@ -73,4 +73,8 @@ const localeSetting = useState<string>('locale.setting')
         v-for="lang in availableLocales"
         :key="lang.iso"
         :value="lang.iso"
-        class="flex items-cente
+        class="flex items-center space-x-2"
+      >
+        {{ lang.flag }} {{ lang.name }} ({{ lang.iso }})
+      </option>
+    </sele
