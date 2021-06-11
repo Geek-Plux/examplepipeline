@@ -77,4 +77,6 @@ const localeSetting = useState<string>('locale.setting')
       >
         {{ lang.flag }} {{ lang.name }} ({{ lang.iso }})
       </option>
-    </sele
+    </select>
+  </div>
+</template>
