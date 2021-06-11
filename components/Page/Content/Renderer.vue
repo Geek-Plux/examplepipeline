@@ -1,2 +1,9 @@
 <script setup>
-const props = defineProps
+const props = defineProps({
+  path: {
+    type: String,
+    required: true,
+  },
+  pageTitle: {
+    type: String,
+    defau
