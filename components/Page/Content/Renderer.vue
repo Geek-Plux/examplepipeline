@@ -6,4 +6,9 @@ const props = defineProps({
   },
   pageTitle: {
     type: String,
-    defau
+    default: '',
+  },
+})
+
+const { data } = await useAsyncData(props.path, () =>
+  queryContent(
