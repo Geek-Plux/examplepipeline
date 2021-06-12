@@ -11,4 +11,11 @@ const props = defineProps({
 })
 
 const { data } = await useAsyncData(props.path, () =>
-  queryContent(
+  queryContent(props.path).findOne()
+)
+</script>
+
+<template>
+  <PageWrapper>
+    <PageHeader>
+      <PageTitle :t
