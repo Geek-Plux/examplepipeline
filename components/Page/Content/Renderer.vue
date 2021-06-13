@@ -22,4 +22,8 @@ const { data } = await useAsyncData(props.path, () =>
     </PageHeader>
     <PageBody>
       <PageSection>
-       
+        <ContentRenderer :value="data" />
+      </PageSection>
+    </PageBody>
+  </PageWrapper>
+</template>
