@@ -10,4 +10,7 @@ const app = useAppConfig() as AppConfigInput
       class="max-w-8xl mx-auto px-4 lg:px-8 flex-1 flex w-full space-x-20"
     >
       <div class="w-full py-4 text-center md:text-left">
-        <div cla
+        <div class="mb-1">
+          {{ app.name }}
+        </div>
+        <div class="text-xs text-gray-
