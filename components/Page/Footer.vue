@@ -13,4 +13,6 @@ const app = useAppConfig() as AppConfigInput
         <div class="mb-1">
           {{ app.name }}
         </div>
-        <div class="text-xs text-gray-
+        <div class="text-xs text-gray-600 dark:text-gray-400">
+          Copyright © 2022 <a :href="app.author.link">{{ app.author.name }}</a
+          
