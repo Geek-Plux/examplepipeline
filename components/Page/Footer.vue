@@ -18,4 +18,6 @@ const app = useAppConfig() as AppConfigInput
           >. All rights reserved. Made with <span class="text-red-500">❤</span>
           <div
             class="flex flex-col md:flex-row space-x-2 items-center md:float-right"
- 
+          >
+            <span class="text-center md:text-right">
+              design by <a hre
