@@ -20,4 +20,7 @@ const app = useAppConfig() as AppConfigInput
             class="flex flex-col md:flex-row space-x-2 items-center md:float-right"
           >
             <span class="text-center md:text-right">
-              design by <a hre
+              design by <a href="https://github.com/viandwi24">viandwi24</a>
+            </span>
+            <span
+             
