@@ -25,4 +25,11 @@ const app = useAppConfig() as AppConfigInput
             <span
               class="block bg-blue-500 rounded px-1 py-0.5 text-white text-xs"
             >
-              {{ p.devDependenc
+              {{ p.devDependencies.nuxt }}
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+</template>
