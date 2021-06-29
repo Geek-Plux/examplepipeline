@@ -59,3 +59,29 @@ const currentStyle = toRef(props, 'type')
             'hover:bg-gray-50 dark:hover:bg-gray-700/30':
               themeSetting !== theme.key,
           }"
+        >
+          <span class="text-sm mr-2 flex items-center">
+            <IconUil:sun v-if="theme.key === 'light'" />
+            <IconUil:moon v-else-if="theme.key === 'dark'" />
+            <IconUil:laptop v-else-if="theme.key === 'system'" />
+            <IconUil:clock v-else-if="theme.key === 'realtime'" />
+          </span>
+          {{ theme.text }}
+        </ListboxOption>
+      </ListboxOptions>
+    </Listbox>
+    <select
+      v-if="currentStyle === 'select-box'"
+      v-model="themeSetting"
+      class="w-full px-2 pr-3 py-1 outline-none rounded border bg-transparent text-gray-700 dark:text-gray-300 border-gray-900/10 dark:border-gray-50/[0.2]"
+    >
+      <option
+        v-for="theme in availableThemes"
+        :key="theme.key"
+        :value="theme.key"
+      >
+        {{ theme.text }}
+      </option>
+    </select>
+  </div>
+</template>
