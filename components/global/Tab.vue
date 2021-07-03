@@ -2,4 +2,11 @@
 defineProps({
   name: {
     type: String,
-    required: tru
+    required: true,
+  },
+  title: {
+    type: String,
+    required: true,
+  },
+})
+const activeTab = inject<string>('activeTa
