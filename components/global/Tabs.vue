@@ -69,3 +69,42 @@ onMounted(() => {
   })()
 })
 </script>
+
+<template>
+  <div ref="tabs" class="tabs">
+    <ClientOnly>
+      <div
+        class="tabs-header relative overflow-hidden flex space-x-6 text-sm font-bold text-gray-300 bg-primary-700/45 rounded-t-lg px-5 py-3"
+      >
+        <div
+          v-for="item in tabItems"
+          :key="item.name"
+          :class="{
+            'tabs-header-item': true,
+            'text-white': activeTab === item.name,
+          }"
+          :style="{
+            zIndex: 2,
+          }"
+          @click="activeTab = item.name"
+        >
+          <a href="#" @click.prevent="$emit('click')">
+            {{ item.title }}
+          </a>
+        </div>
+        <span
+          ref="tabHeaderIndicator"
+          class="absolute flex h-full top-0 left-0 p-1 py-1.5 overflow-hidden transition-all duration-300"
+          :style="{ zIndex: 1 }"
+        >
+          <span class="flex-1 bg-slate-500/40 rounded-lg" />
+        </span>
+      </div>
+    </ClientOnly>
+    <div
+      class="tabs-body relative text-slate-800 dark:text-white bg-gray-200 dark:bg-slate-800 shadow rounded-b-lg"
+    >
+      <slot />
+    </div>
+  </div>
+</template>
