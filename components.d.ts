@@ -7,4 +7,5 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    'Icon:ic:base
+    'Icon:ic:baselineArrowRightAlt': typeof import('~icons/ic/baseline-arrow-right-alt')['default']
+    'IconBi:exclamat
