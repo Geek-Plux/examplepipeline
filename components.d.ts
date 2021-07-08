@@ -9,4 +9,4 @@ declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     'Icon:ic:baselineArrowRightAlt': typeof import('~icons/ic/baseline-arrow-right-alt')['default']
     'IconBi:exclamationCircleFill': typeof import('~icons/bi/exclamation-circle-fill')['default']
-    'Ic
+    'IconClarity:timesCircleSolid': typeof import('~icons/clarity/times-circle-solid')['default'
