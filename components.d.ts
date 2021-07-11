@@ -11,4 +11,5 @@ declare module '@vue/runtime-core' {
     'IconBi:exclamationCircleFill': typeof import('~icons/bi/exclamation-circle-fill')['default']
     'IconClarity:timesCircleSolid': typeof import('~icons/clarity/times-circle-solid')['default']
     'IconClarity:timesLine': typeof import('~icons/clarity/times-line')['default']
-    'I
+    'IconFaSolid:ellipsisV': typeof import('~icons/fa-solid/ellipsis-v')['default']
+    'IconIc:baselineContentCopy':
