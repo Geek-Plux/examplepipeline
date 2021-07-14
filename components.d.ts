@@ -14,4 +14,5 @@ declare module '@vue/runtime-core' {
     'IconFaSolid:ellipsisV': typeof import('~icons/fa-solid/ellipsis-v')['default']
     'IconIc:baselineContentCopy': typeof import('~icons/ic/baseline-content-copy')['default']
     'IconLa:language': typeof import('~icons/la/language')['default']
-    'IconMaterialSymbols:contentCopyOutline': typeof import('~icons/mat
+    'IconMaterialSymbols:contentCopyOutline': typeof import('~icons/material-symbols/content-copy-outline')['default']
+    'IconMdi:checkCircle': typeof import('~icons/mdi
