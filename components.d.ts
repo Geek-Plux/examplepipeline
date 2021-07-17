@@ -22,4 +22,6 @@ declare module '@vue/runtime-core' {
     'IconUil:apps': typeof import('~icons/uil/apps')['default']
     'IconUil:bars': typeof import('~icons/uil/bars')['default']
     'IconUil:clock': typeof import('~icons/uil/clock')['default']
-    'IconUil:laptop': typeof import('~icons/uil/lapto
+    'IconUil:laptop': typeof import('~icons/uil/laptop')['default']
+    'IconUil:moon': typeof import('~icons/uil/moon')['default']
+    '
