@@ -25,4 +25,5 @@ declare module '@vue/runtime-core' {
     'IconUil:laptop': typeof import('~icons/uil/laptop')['default']
     'IconUil:moon': typeof import('~icons/uil/moon')['default']
     'IconUil:sun': typeof import('~icons/uil/sun')['default']
-    'IconUil:t
+    'IconUil:times': typeof import('~icons/uil/times')['default']
+    RouterLink: typeof import('vue-router')['
