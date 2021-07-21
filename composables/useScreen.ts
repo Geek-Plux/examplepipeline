@@ -11,4 +11,11 @@ export type ScreenSize =
   | typeof Size.LARGE
   | typeof Size.EXTRA_LARGE
 
-export const defaultSc
+export const defaultScreenConfig = {
+  [Size.SMALL]: 576,
+  [Size.MEDIUM]: 768,
+  [Size.LARGE]: 992,
+  [Size.EXTRA_LARGE]: 1200,
+}
+
+ex
