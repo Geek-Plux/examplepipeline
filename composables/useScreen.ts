@@ -6,4 +6,9 @@ export enum Size {
 }
 
 export type ScreenSize =
-  | typeof Siz
+  | typeof Size.SMALL
+  | typeof Size.MEDIUM
+  | typeof Size.LARGE
+  | typeof Size.EXTRA_LARGE
+
+export const defaultSc
