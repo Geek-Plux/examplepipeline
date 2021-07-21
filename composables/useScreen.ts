@@ -18,4 +18,8 @@ export const defaultScreenConfig = {
   [Size.EXTRA_LARGE]: 1200,
 }
 
-ex
+export const useScreen = () => {
+  const screenSize = reactive({
+    width: 0,
+    height: 0,
+  }
