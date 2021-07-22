@@ -22,4 +22,9 @@ export const useScreen = () => {
   const screenSize = reactive({
     width: 0,
     height: 0,
-  }
+  })
+
+  const current = ref<ScreenSize>(Size.SMALL)
+
+  const getSize = (width?: number) => {
+    if (width === und
