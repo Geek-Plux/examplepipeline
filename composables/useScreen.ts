@@ -27,4 +27,8 @@ export const useScreen = () => {
   const current = ref<ScreenSize>(Size.SMALL)
 
   const getSize = (width?: number) => {
-    if (width === und
+    if (width === undefined) width = screenSize.width
+    const {
+      [Size.SMALL]: sm,
+      [Size.MEDIUM]: md,
+     
