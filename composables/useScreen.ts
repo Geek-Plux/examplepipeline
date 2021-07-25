@@ -41,4 +41,6 @@ export const useScreen = () => {
     return Size.EXTRA_LARGE
   }
 
-  const onWindowResize
+  const onWindowResize = () => {
+    const { innerWidth, innerHeight } = window
+    screenSize.width = in
