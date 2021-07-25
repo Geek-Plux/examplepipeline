@@ -34,4 +34,7 @@ export const useScreen = () => {
       [Size.LARGE]: lg,
       [Size.EXTRA_LARGE]: xl,
     } = defaultScreenConfig
-    if (width < Number(sm)) return Si
+    if (width < Number(sm)) return Size.SMALL
+    if (width < Number(md)) return Size.MEDIUM
+    if (width < Number(lg)) return Size.LARGE
+    if (width < Number(
