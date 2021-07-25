@@ -37,4 +37,8 @@ export const useScreen = () => {
     if (width < Number(sm)) return Size.SMALL
     if (width < Number(md)) return Size.MEDIUM
     if (width < Number(lg)) return Size.LARGE
-    if (width < Number(
+    if (width < Number(xl)) return Size.EXTRA_LARGE
+    return Size.EXTRA_LARGE
+  }
+
+  const onWindowResize
