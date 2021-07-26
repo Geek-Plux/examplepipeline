@@ -48,4 +48,8 @@ export const useScreen = () => {
     current.value = getSize()
   }
 
-  const higherThan = (size: Scre
+  const higherThan = (size: ScreenSize) => {
+    const {
+      [Size.SMALL]: sm,
+      [Size.MEDIUM]: md,
+      [Size
