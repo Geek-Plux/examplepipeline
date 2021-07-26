@@ -52,4 +52,7 @@ export const useScreen = () => {
     const {
       [Size.SMALL]: sm,
       [Size.MEDIUM]: md,
-      [Size
+      [Size.LARGE]: lg,
+      [Size.EXTRA_LARGE]: xl,
+    } = defaultScreenConfig
+    const wid
