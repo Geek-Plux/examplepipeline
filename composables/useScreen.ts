@@ -59,3 +59,9 @@ export const useScreen = () => {
     if (size === Size.SMALL) return width >= Number(sm)
     if (size === Size.MEDIUM) return width >= Number(md)
     if (size === Size.LARGE) return width >= Number(lg)
+    if (size === Size.EXTRA_LARGE) return width >= Number(xl)
+    return false
+  }
+
+  onMounted(() => {
+ 
