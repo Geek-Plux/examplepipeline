@@ -65,4 +65,9 @@ export const useScreen = () => {
 
   onMounted(() => {
     if (typeof window === 'undefined') return
-    window.addEventListener('resize', onW
+    window.addEventListener('resize', onWindowResize)
+    getSize(window.innerWidth)
+  })
+
+  onUnmounted(() => {
+    if (typeof window =
