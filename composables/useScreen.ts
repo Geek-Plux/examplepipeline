@@ -71,4 +71,13 @@ export const useScreen = () => {
 
   onUnmounted(() => {
     if (typeof window === 'undefined') return
-    window.removeEventListener('resize', onWindowResiz
+    window.removeEventListener('resize', onWindowResize)
+  })
+
+  return {
+    getSize,
+    screenSize,
+    current,
+    higherThan,
+  }
+}
