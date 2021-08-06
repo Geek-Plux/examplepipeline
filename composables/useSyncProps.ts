@@ -5,4 +5,10 @@ export const useSyncProps = <T>(
   key: string,
   emit: any
 ): WritableComputedRef<T> => {
-  return compute
+  return computed({
+    get() {
+      return props[key]
+    },
+    set(value) {
+      emit(`update:${key}`, value)
+ 
