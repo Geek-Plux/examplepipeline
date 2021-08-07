@@ -11,4 +11,6 @@ export const useSyncProps = <T>(
     },
     set(value) {
       emit(`update:${key}`, value)
- 
+    },
+  })
+}
