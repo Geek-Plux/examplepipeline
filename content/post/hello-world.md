@@ -16,4 +16,6 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
     :::tab{name="ts" title="TypeScript"}
       ```ts
       import React from 'react';
-      import { re
+      import { render } from 'react-dom';
+      import { Provider } from 'react-redux';
+      import { createStore } fro
