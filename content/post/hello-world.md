@@ -13,4 +13,7 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
 
 :::div{class="py-4"}
   ::tabs
-    ::
+    :::tab{name="ts" title="TypeScript"}
+      ```ts
+      import React from 'react';
+      import { re
