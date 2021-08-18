@@ -18,4 +18,6 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
       import React from 'react';
       import { render } from 'react-dom';
       import { Provider } from 'react-redux';
-      import { createStore } fro
+      import { createStore } from 'redux';
+      import { enthusiasm } from './reducers/index';
+      import { StoreState } from './ty
