@@ -24,4 +24,7 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
       import App from './components/App';
       import './index.css';
 
-      const s
+      const store = createStore<StoreState>(enthusiasm, {
+        enthusiasmLevel: 1,
+        languageName: 'TypeScript',
+  
