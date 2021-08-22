@@ -32,4 +32,9 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
       render(
         <Provider store={store}>
           <App />
-        </Pro
+        </Provider>,
+        document.getElementById('root')
+      );
+      ```
+    :::
+ 
