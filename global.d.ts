@@ -16,4 +16,6 @@ declare module '@nuxt/schema' {
 declare module 'nuxt/config' {
   interface NuxtConfig {
     intlify?: IntlifyModuleOptions
-    vueuse?: VueUseNu
+    vueuse?: VueUseNuxtOptions
+    windicss?: NuxtWindiCssModuleOptions
+    content?: Partial<NuxtContentModuleOptions
