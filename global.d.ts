@@ -14,4 +14,6 @@ declare module '@nuxt/schema' {
 }
 
 declare module 'nuxt/config' {
-  inte
+  interface NuxtConfig {
+    intlify?: IntlifyModuleOptions
+    vueuse?: VueUseNu
