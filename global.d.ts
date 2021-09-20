@@ -18,4 +18,8 @@ declare module 'nuxt/config' {
     intlify?: IntlifyModuleOptions
     vueuse?: VueUseNuxtOptions
     windicss?: NuxtWindiCssModuleOptions
-    content?: Partial<NuxtContentModuleOptions
+    content?: Partial<NuxtContentModuleOptions>
+  }
+}
+
+export {}
