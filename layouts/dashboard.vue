@@ -8,3 +8,8 @@
           <template #drawer>
             <DashboardSidebar mode="mobile" />
           </template>
+        </DashboardNavbar>
+      </slot>
+      <div class="flex-1 w-full flex flex-col">
+        <div
+  
