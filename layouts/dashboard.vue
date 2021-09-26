@@ -17,4 +17,7 @@
           <div class="lg:pl-8 py-4">
             <DashboardSidebar />
           </div>
-          <div cla
+          <div class="flex flex-col lg:ml-60 xl:ml-80">
+            <slot />
+            <slot name="footer">
+      
