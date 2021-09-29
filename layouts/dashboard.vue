@@ -24,4 +24,9 @@
             </slot>
           </div>
         </div>
-      </
+      </div>
+    </div>
+    <slot name="app-after" />
+    <div id="app-after"></div>
+  </div>
+</template
