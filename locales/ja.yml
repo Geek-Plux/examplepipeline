@@ -1,0 +1,15 @@
+
+components:
+  language_switcher:
+    change_language: 言語を変更
+  theme_switcher:
+    theme: テーマ
+    change_theme: テーマを変更
+pages:
+  '404':
+    title: ページが見つかりません
+  index:
+    title: nuxt 3[]素晴らしい[]スターター
+  blank:
+    nav: 空欄
+    title: 空白ページ
