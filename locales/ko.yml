@@ -17,4 +17,10 @@ pages:
   post:
     nav: 게시하다
     title: 게시하다
-    description: 이것
+    description: 이것은 게시물 페이지입니다
+  test:
+    nav: 테스트
+    title: 테스트
+    description: 이것은 테스트 페이지입니다
+    counter: 카운터
+   
