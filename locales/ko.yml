@@ -13,3 +13,8 @@ pages:
     nav: 공백
     title: 빈 페이지
     description: 이것은 빈 페이지입니다
+    just_blank_page_with_title: 제목이 있는 빈 페이지
+  post:
+    nav: 게시하다
+    title: 게시하다
+    description: 이것
