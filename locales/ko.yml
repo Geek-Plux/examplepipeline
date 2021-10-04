@@ -34,4 +34,8 @@ pages:
     description: 이것은 시작 페이지입니다
   setting:
     nav: 환경
-    title: 환
+    title: 환경
+    description: 이것은 설정 페이지입니다
+    sections:
+      validate_username:
+        title: github 프로필 확인
