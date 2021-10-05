@@ -45,4 +45,8 @@ pages:
         footer_link: github 사용자 api
       bot_id:
         title: 봇 아이디
-        description: 
+        description: 이것은 봇 id입니다.
+        footer: 봇과 상호 작용할 때 사용됩니다.
+      protection_spam:
+        title: 스팸 방지
+       
