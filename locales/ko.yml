@@ -41,4 +41,8 @@ pages:
         title: github 프로필 확인
         description: github 사용자 이름을 입력하고 버튼을 클릭하여 확인하십시오.
         footer: 에 대해 자세히 알아보기
-       
+        footer_button: 확인
+        footer_link: github 사용자 api
+      bot_id:
+        title: 봇 아이디
+        description: 
