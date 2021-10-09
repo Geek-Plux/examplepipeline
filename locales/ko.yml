@@ -64,4 +64,9 @@ pages:
       nav: 집
       title: 집
 banners:
-  welcome: 안녕하세요, %{
+  welcome: 안녕하세요, %{app_name}에 오신 것을 환영합니다!
+others:
+  learn_more: 더 알아보기
+  copy: 복사
+  enabled: 활성화
+  disabled: 장애가 있는
