@@ -57,4 +57,11 @@ pages:
       advanced_dir_listing:
         title: 디렉토리 목록
         description: 디렉토리 내에 인덱스 파일이 없으면 디렉토리 내용이 표시됩니다.
-  d
+  dashboard:
+    nav: 계기반
+    title: 계기반
+    index:
+      nav: 집
+      title: 집
+banners:
+  welcome: 안녕하세요, %{
