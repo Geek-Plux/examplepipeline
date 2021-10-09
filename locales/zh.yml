@@ -1,1 +1,6 @@
-componen
+components:
+  language_switcher:
+    change_language: 切换语言
+  theme_switcher:
+    theme: 主题
+    change_the
