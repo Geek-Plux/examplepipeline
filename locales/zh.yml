@@ -9,4 +9,8 @@ pages:
     title: nuxt 3[]awesome[]starter
   404:
     title: 找不到该页面
-  blan
+  blank:
+    nav: 空白
+    title: 空白页
+    description: 这是一个空白页
+    just_blank_page_with_t
