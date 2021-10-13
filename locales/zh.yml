@@ -13,4 +13,10 @@ pages:
     nav: 空白
     title: 空白页
     description: 这是一个空白页
-    just_blank_page_with_t
+    just_blank_page_with_title: 只是带有标题的空白页
+  post:
+    nav: 文章
+    title: 文章
+    description: 这是一个文章页面
+  test:
+    n
