@@ -19,4 +19,9 @@ pages:
     title: 文章
     description: 这是一个文章页面
   test:
-    n
+    nav: 测试
+    title: 测试
+    description: 这是一个测试页面
+    counter: 计数器
+    increment: 增加
+    decre
