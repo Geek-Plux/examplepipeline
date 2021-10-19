@@ -24,4 +24,10 @@ pages:
     description: 这是一个测试页面
     counter: 计数器
     increment: 增加
-    decre
+    decrement: 减少
+    reset: 重置
+    identity: 标识
+    full_name: 全名
+  getting-started:
+    nav: 快速开始
+    title: 
