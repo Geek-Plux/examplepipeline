@@ -30,4 +30,9 @@ pages:
     full_name: 全名
   getting-started:
     nav: 快速开始
-    title: 
+    title: 快速开始
+    description: 这是一个快速开始页面
+  setting:
+    nav: 设置
+    title: 设置
+    description: 这是一个设
