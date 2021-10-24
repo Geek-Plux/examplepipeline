@@ -35,4 +35,8 @@ pages:
   setting:
     nav: 设置
     title: 设置
-    description: 这是一个设
+    description: 这是一个设置页面
+    sections:
+      validate_username:
+        title: 验证 github 配置文件
+        description: 输入您的 github 用户
