@@ -44,3 +44,7 @@ pages:
         footer_button: 验证
         footer_link: github 用户 api
       bot_id:
+        title: 机器人 id
+        description: 这是你的机器人 ID.
+        footer: 在与机器人交互时使用。
+      protectio
