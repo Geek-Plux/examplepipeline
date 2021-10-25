@@ -39,4 +39,8 @@ pages:
     sections:
       validate_username:
         title: 验证 github 配置文件
-        description: 输入您的 github 用户
+        description: 输入您的 github 用户名，然后单击按钮进行验证。
+        footer: 了解更多
+        footer_button: 验证
+        footer_link: github 用户 api
+      bot_id:
