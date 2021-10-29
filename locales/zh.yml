@@ -47,4 +47,7 @@ pages:
         title: 机器人 id
         description: 这是你的机器人 ID.
         footer: 在与机器人交互时使用。
-      protectio
+      protection_spam:
+        title: 垃圾邮件防护
+        description: 切换启用以删除红色边框
+        footer: 如果启用，我们将保护您的评论免受垃圾邮件的侵害
