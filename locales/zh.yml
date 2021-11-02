@@ -51,3 +51,7 @@ pages:
         title: 垃圾邮件防护
         description: 切换启用以删除红色边框
         footer: 如果启用，我们将保护您的评论免受垃圾邮件的侵害
+      advanced_enable_advanced:
+        title: 高级设置
+        description: 您可以启用高级设置以更改设置
+      
