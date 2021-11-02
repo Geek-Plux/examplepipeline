@@ -54,4 +54,7 @@ pages:
       advanced_enable_advanced:
         title: 高级设置
         description: 您可以启用高级设置以更改设置
-      
+      advanced_dir_listing:
+        title: 目录列表
+        description: 如果目录中不存在索引文件，则将显示目录内容。
+  dashboard:
