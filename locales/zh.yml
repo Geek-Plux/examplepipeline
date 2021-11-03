@@ -58,3 +58,10 @@ pages:
         title: 目录列表
         description: 如果目录中不存在索引文件，则将显示目录内容。
   dashboard:
+    nav: 仪表盘
+    title: 仪表盘
+    index:
+      nav: 主页
+      title: 主页
+banners:
+  welcome: 你好, 欢迎来到 %{app_name}!
