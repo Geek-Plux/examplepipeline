@@ -65,3 +65,8 @@ pages:
       title: 主页
 banners:
   welcome: 你好, 欢迎来到 %{app_name}!
+others:
+  learn_more: 了解更多
+  copy: 复制
+  enabled: 启用
+  disabled: 禁用
