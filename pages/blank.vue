@@ -9,4 +9,8 @@ definePageMeta({
   layout: 'page',
 })
 useHead(() => ({
-  title
+  title: capitalize(t('pages.blank.title')),
+  meta: [
+    {
+      name: 'description',
+      content: t('pages.b
