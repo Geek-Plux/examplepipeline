@@ -22,4 +22,7 @@ useHead(() => ({
 <template>
   <PageWrapper>
     <PageHeader>
-      <Pa
+      <PageTitle :text="$t('pages.blank.title')" class="capitalize" />
+    </PageHeader>
+    <PageBody>
+      <PageSect
