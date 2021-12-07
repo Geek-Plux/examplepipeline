@@ -13,4 +13,13 @@ useHead(() => ({
   meta: [
     {
       name: 'description',
-      content: t('pages.b
+      content: t('pages.blank.description'),
+    },
+  ],
+}))
+</script>
+
+<template>
+  <PageWrapper>
+    <PageHeader>
+      <Pa
