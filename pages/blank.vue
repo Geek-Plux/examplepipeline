@@ -25,4 +25,6 @@ useHead(() => ({
       <PageTitle :text="$t('pages.blank.title')" class="capitalize" />
     </PageHeader>
     <PageBody>
-      <PageSect
+      <PageSection>
+        <div v-for="i in 30" :key="i" class="text-6xl uppercase">
+          {{ $t('pages.
