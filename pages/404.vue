@@ -8,4 +8,9 @@ const { t } = useLang()
 definePageMeta({
   layout: 'page',
 })
-us
+useHead(() => ({
+  title: capitalize(t('pages.404.title')),
+}))
+</script>
+
+<template>
