@@ -31,3 +31,5 @@ useHead(() => ({
         </div>
       </PageSection>
     </PageBody>
+  </PageWrapper>
+</template>
