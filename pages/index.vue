@@ -7,4 +7,5 @@ definePageMeta({
   layout: 'page',
 })
 
-// 
+// vars
+const titlesText = computed<string[]>(() => t('pages.index.title').split('[]'))
