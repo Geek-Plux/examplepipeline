@@ -24,4 +24,12 @@ const leadingsText = computed(() => [
   },
   {
     text: titlesText.value[2],
-    st
+    startColor: '#FF4D4D',
+    endColor: '#F9CB28',
+    delay: 4,
+  },
+])
+const tooltip = ref(false)
+
+// const
+co
