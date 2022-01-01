@@ -18,4 +18,10 @@ const leadingsText = computed(() => [
   },
   {
     text: titlesText.value[1],
-    s
+    startColor: '#7928CA',
+    endColor: '#FF0080',
+    delay: 2,
+  },
+  {
+    text: titlesText.value[2],
+    st
