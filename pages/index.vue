@@ -32,4 +32,6 @@ const leadingsText = computed(() => [
 const tooltip = ref(false)
 
 // const
-co
+const cancelTooltip = () => {
+  tooltip.value = false
+  const tt = document.queryS
