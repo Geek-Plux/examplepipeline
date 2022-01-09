@@ -34,4 +34,8 @@ const tooltip = ref(false)
 // const
 const cancelTooltip = () => {
   tooltip.value = false
-  const tt = document.queryS
+  const tt = document.querySelector('.tooltiptext')
+  if (tt) tt.innerHTML = `Copy to clipboard`
+}
+const copyBash = () => {
+ 
