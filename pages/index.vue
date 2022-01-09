@@ -38,4 +38,5 @@ const cancelTooltip = () => {
   if (tt) tt.innerHTML = `Copy to clipboard`
 }
 const copyBash = () => {
- 
+  const bash = 'git clone https://github.com/viandwi24/nuxt3-awesome-starter'
+  navigator.clipboar
