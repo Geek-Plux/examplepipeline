@@ -39,4 +39,6 @@ const cancelTooltip = () => {
 }
 const copyBash = () => {
   const bash = 'git clone https://github.com/viandwi24/nuxt3-awesome-starter'
-  navigator.clipboar
+  navigator.clipboard.writeText(bash)
+  tooltip.value = true
+  const tt = document.querySelector('.tooltiptext
