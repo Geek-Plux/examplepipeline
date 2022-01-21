@@ -41,4 +41,10 @@ const copyBash = () => {
   const bash = 'git clone https://github.com/viandwi24/nuxt3-awesome-starter'
   navigator.clipboard.writeText(bash)
   tooltip.value = true
-  const tt = document.querySelector('.tooltiptext
+  const tt = document.querySelector('.tooltiptext')
+  if (tt) tt.innerHTML = `Copied!!!`
+}
+</script>
+
+<template>
+  <PageWrapper class="flex-1 fle
