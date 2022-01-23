@@ -50,4 +50,6 @@ const copyBash = () => {
   <PageWrapper class="flex-1 flex">
     <div class="background-overlay">
       <div
-        class="absolute top-0 left-0 transform tr
+        class="absolute top-0 left-0 transform translate-x-64 translate-y-4 h-14 w-14 rounded-full bg-gray-900 dark:bg-white"
+      ></div>
+      <di
