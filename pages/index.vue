@@ -47,4 +47,7 @@ const copyBash = () => {
 </script>
 
 <template>
-  <PageWrapper class="flex-1 fle
+  <PageWrapper class="flex-1 flex">
+    <div class="background-overlay">
+      <div
+        class="absolute top-0 left-0 transform tr
