@@ -52,4 +52,5 @@ const copyBash = () => {
       <div
         class="absolute top-0 left-0 transform translate-x-64 translate-y-4 h-14 w-14 rounded-full bg-gray-900 dark:bg-white"
       ></div>
-      <di
+      <div
+        class="absolute hidden md:block top-0 left-0 transform translate-x-18 tran
