@@ -58,4 +58,7 @@ const copyBash = () => {
       <div
         class="absolute hidden md:block bottom-0 right-0 transform -translate-x-4 -translate-y-40 h-16 w-16 rounded bg-purple-600 linear-wipe"
       ></div>
-      <div class="absolute bottom-0 ri
+      <div class="absolute bottom-0 right-0 triangle-shape"></div>
+    </div>
+    <PageBody class="flex-1 flex">
+      <PageSection 
