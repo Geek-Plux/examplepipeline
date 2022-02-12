@@ -63,4 +63,6 @@ const copyBash = () => {
     <PageBody class="flex-1 flex">
       <PageSection class="flex-1 flex items-center">
         <div class="flex-1 md:w-5/8 flex flex-col z-10">
-          
+          <h1 class="text-center md:text-left mt-4">
+            <span
+              v-for="(item, i
