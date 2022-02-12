@@ -65,4 +65,6 @@ const copyBash = () => {
         <div class="flex-1 md:w-5/8 flex flex-col z-10">
           <h1 class="text-center md:text-left mt-4">
             <span
-              v-for="(item, i
+              v-for="(item, i) in leadingsText"
+              :key="i"
+              :style="`--content: '${item.text}
