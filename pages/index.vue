@@ -69,4 +69,7 @@ const copyBash = () => {
               :key="i"
               :style="`--content: '${item.text}'; --start-color: ${
                 item.startColor
-              }; --end-color: ${item.end
+              }; --end-color: ${item.endColor}; --animation-name: anim-fg-${
+                i + 1
+              }`"
+              class=
