@@ -67,4 +67,6 @@ const copyBash = () => {
             <span
               v-for="(item, i) in leadingsText"
               :key="i"
-              :style="`--content: '${item.text}
+              :style="`--content: '${item.text}'; --start-color: ${
+                item.startColor
+              }; --end-color: ${item.end
