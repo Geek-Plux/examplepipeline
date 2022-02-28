@@ -76,4 +76,6 @@ const copyBash = () => {
             >
               <span class="animated-text-fg">{{ item.text }}</span>
             </span>
-  
+          </h1>
+          <div
+            class="flex space-x-4 ml-4 mt-10 justify-center md:justify-sta
