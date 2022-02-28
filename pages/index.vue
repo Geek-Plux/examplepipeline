@@ -78,4 +78,8 @@ const copyBash = () => {
             </span>
           </h1>
           <div
-            class="flex space-x-4 ml-4 mt-10 justify-center md:justify-sta
+            class="flex space-x-4 ml-4 mt-10 justify-center md:justify-start"
+          >
+            <Button
+              size="lg"
+              t
