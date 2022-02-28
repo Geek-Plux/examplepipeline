@@ -73,4 +73,7 @@ const copyBash = () => {
                 i + 1
               }`"
               class="animated-text-bg drop-shadow-xl text-5xl xl:text-8xl 2xl:text-9xl block font-black uppercase"
+            >
+              <span class="animated-text-fg">{{ item.text }}</span>
+            </span>
   
