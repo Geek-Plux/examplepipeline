@@ -82,4 +82,6 @@ const copyBash = () => {
           >
             <Button
               size="lg"
-              t
+              text="Nuxt 3"
+              class="font-extrabold"
+              href="https://v3.nuxtjs.or
