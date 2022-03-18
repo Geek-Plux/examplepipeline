@@ -88,4 +88,7 @@ const copyBash = () => {
             />
             <Button
               size="lg"
-              text="G
+              text="Github"
+              type="secondary"
+              class="font-extrabold"
+              href="
