@@ -91,4 +91,7 @@ const copyBash = () => {
               text="Github"
               type="secondary"
               class="font-extrabold"
-              href="
+              href="https://github.com/viandwi24/nuxt3-awesome-starter"
+            />
+          </div>
+        <
