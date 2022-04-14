@@ -94,4 +94,6 @@ const copyBash = () => {
               href="https://github.com/viandwi24/nuxt3-awesome-starter"
             />
           </div>
-        <
+        </div>
+        <div class="hidden md:flex md:w-3/8 justify-center items-end relative">
+          <
