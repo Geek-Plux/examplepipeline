@@ -96,4 +96,5 @@ const copyBash = () => {
           </div>
         </div>
         <div class="hidden md:flex md:w-3/8 justify-center items-end relative">
-          <
+          <Gem class="absolute -top-64 -right-0" />
+          <div class="ml-4 w-100 z-10 h-auto shadow">
