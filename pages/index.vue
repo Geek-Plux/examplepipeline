@@ -100,4 +100,6 @@ const copyBash = () => {
           <div class="ml-4 w-100 z-10 h-auto shadow">
             <div
               class="win-header bg-gray-200 dark:bg-slate-800 flex flex space-x-4 px-3 py-2 rounded-t-lg relative border-b-2 border-gray-300/75 dark:border-slate-700/75"
-     
+            >
+              <div class="win-controls flex space-x-1 items-center">
+                <div class="w-3 h-3 
