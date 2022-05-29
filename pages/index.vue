@@ -109,3 +109,5 @@ const copyBash = () => {
               <div class="flex-1 font-bold text-center pr-12 text-sm">BASH</div>
               <div class="text-sm flex justify-center items-center">
                 <div class="tooltip">
+                  <button
+                    class="text-gray-100 flex justify-center items-center"
