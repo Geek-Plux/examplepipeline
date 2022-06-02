@@ -115,4 +115,6 @@ const copyBash = () => {
                     @mouseout="cancelTooltip"
                   >
                     <span class="tooltiptext">Copy to clipboard</span>
-            
+                    <icon-material-symbols:content-copy-outline />
+                  </button>
+        
