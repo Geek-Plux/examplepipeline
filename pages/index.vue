@@ -111,3 +111,5 @@ const copyBash = () => {
                 <div class="tooltip">
                   <button
                     class="text-gray-100 flex justify-center items-center"
+                    @click="copyBash"
+                    @mouseout="cancelTo
