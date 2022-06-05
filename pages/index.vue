@@ -121,4 +121,7 @@ const copyBash = () => {
               </div>
             </div>
             <div
-              class="win-body rounded-b-lg bg-gray-200/90 dark:bg-slate-800/90 px-3 py-2 font-mono backdrop-filter backdrop-blur-l
+              class="win-body rounded-b-lg bg-gray-200/90 dark:bg-slate-800/90 px-3 py-2 font-mono backdrop-filter backdrop-blur-lg"
+            >
+              <div>
+                $ git clone https://github.com/viandwi24/nuxt3
