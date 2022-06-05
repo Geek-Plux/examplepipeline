@@ -117,4 +117,8 @@ const copyBash = () => {
                     <span class="tooltiptext">Copy to clipboard</span>
                     <icon-material-symbols:content-copy-outline />
                   </button>
-        
+                </div>
+              </div>
+            </div>
+            <div
+              class="win-bod
