@@ -135,4 +135,13 @@ const copyBash = () => {
 </template>
 
 <style lang="scss">
-@import '../assets/sass/variab
+@import '../assets/sass/variables';
+
+@keyframes anim-fg-1 {
+  0%,
+  16.667%,
+  100% {
+    opacity: 1;
+  }
+
+  33.
