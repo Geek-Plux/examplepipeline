@@ -130,3 +130,9 @@ const copyBash = () => {
           </div>
         </div>
       </PageSection>
+    </PageBody>
+  </PageWrapper>
+</template>
+
+<style lang="scss">
+@import '../assets/sass/variab
