@@ -144,4 +144,14 @@ const copyBash = () => {
     opacity: 1;
   }
 
-  33.
+  33.333%,
+  83.333% {
+    opacity: 0;
+  }
+}
+
+@keyframes anim-fg-2 {
+  0%,
+  16.667%,
+  66.667%,
+  100%
