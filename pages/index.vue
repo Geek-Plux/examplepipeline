@@ -177,4 +177,8 @@ const copyBash = () => {
   }
 }
 
-.animat
+.animated-text-bg {
+  position: relative;
+  display: block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
