@@ -182,3 +182,8 @@ const copyBash = () => {
   display: block;
   -webkit-user-select: none;
   -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  content: var(--content);
+  display: block;
+  width
