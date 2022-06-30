@@ -192,4 +192,8 @@ const copyBash = () => {
   bottom: 0;
   left: 0;
   z-index: 0;
-  paddin
+  padding-left: $padding;
+  padding-right: $padding;
+  &:before {
+    content: var(--content);
+    posi
