@@ -196,4 +196,8 @@ const copyBash = () => {
   padding-right: $padding;
   &:before {
     content: var(--content);
-    posi
+    position: absolute;
+    display: block;
+    width: 100%;
+    color: theme('colors.slate.800');
+ 
