@@ -200,4 +200,9 @@ const copyBash = () => {
     display: block;
     width: 100%;
     color: theme('colors.slate.800');
- 
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    padding-left: $padding;
+    padding-righ
