@@ -211,4 +211,7 @@ const copyBash = () => {
 .animated-text-fg {
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-te
+  -webkit-text-fill-color: transparent;
+  padding-left: $padding;
+  padding-right: $padding;
+  background-image: linea
