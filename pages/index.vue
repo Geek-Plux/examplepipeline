@@ -205,4 +205,10 @@ const copyBash = () => {
     left: 0;
     z-index: 0;
     padding-left: $padding;
-    padding-righ
+    padding-right: $padding;
+  }
+}
+.animated-text-fg {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-te
