@@ -214,4 +214,10 @@ const copyBash = () => {
   -webkit-text-fill-color: transparent;
   padding-left: $padding;
   padding-right: $padding;
-  background-image: linea
+  background-image: linear-gradient(
+    90deg,
+    var(--start-color),
+    var(--end-color)
+  );
+  position: relative;
+  opacity
