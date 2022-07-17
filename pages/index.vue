@@ -225,4 +225,8 @@ const copyBash = () => {
   animation: var(--animation-name) 8s infinite;
 }
 
-html.dark 
+html.dark {
+  .animated-text-bg {
+    color: theme('colors.gray.100');
+    &:before {
+      color: theme('colors
