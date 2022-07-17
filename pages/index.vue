@@ -220,4 +220,9 @@ const copyBash = () => {
     var(--end-color)
   );
   position: relative;
-  opacity
+  opacity: 0;
+  z-index: 1;
+  animation: var(--animation-name) 8s infinite;
+}
+
+html.dark 
