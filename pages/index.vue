@@ -237,4 +237,6 @@ html.dark {
 .triangle-shape {
   width: 0;
   height: 0;
-  border-lef
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 40px solid 
