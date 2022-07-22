@@ -229,4 +229,12 @@ html.dark {
   .animated-text-bg {
     color: theme('colors.gray.100');
     &:before {
-      color: theme('colors
+      color: theme('colors.gray.100');
+    }
+  }
+}
+
+.triangle-shape {
+  width: 0;
+  height: 0;
+  border-lef
