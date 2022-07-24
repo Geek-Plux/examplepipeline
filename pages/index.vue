@@ -239,4 +239,9 @@ html.dark {
   height: 0;
   border-left: 25px solid transparent;
   border-right: 25px solid transparent;
-  border-bottom: 40px solid 
+  border-bottom: 40px solid theme('colors.green.600');
+  transform: translate(-15rem, -6rem) rotate(45deg);
+}
+
+.tooltip {
+  posi
