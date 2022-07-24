@@ -244,4 +244,11 @@ html.dark {
 }
 
 .tooltip {
-  posi
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color
