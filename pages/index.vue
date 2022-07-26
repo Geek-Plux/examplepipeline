@@ -251,4 +251,10 @@ html.dark {
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 140px;
-  background-color
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
