@@ -271,4 +271,6 @@ html.dark {
   top: 100%;
   left: 50%;
   margin-left: -5px;
-  
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent tran
