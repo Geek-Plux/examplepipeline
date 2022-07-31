@@ -258,3 +258,8 @@ html.dark {
   padding: 5px;
   position: absolute;
   z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
