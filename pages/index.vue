@@ -273,4 +273,11 @@ html.dark {
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #555 transparent transparent tran
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
