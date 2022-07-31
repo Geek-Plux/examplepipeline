@@ -263,3 +263,12 @@ html.dark {
   margin-left: -75px;
   opacity: 0;
   transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  
