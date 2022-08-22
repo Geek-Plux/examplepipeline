@@ -161,3 +161,97 @@ const validate = async () => {
                       href="https://docs.github.com/en/rest/users/users#get-a-user"
                     />
                   </p>
+                  <Button
+                    class="capitalize"
+                    size="sm"
+                    type="opposite"
+                    :text="
+                      $t(
+                        'pages.setting.sections.validate_username.footer_button'
+                      )
+                    "
+                    @click="validate"
+                  />
+                </CardFooter>
+              </Card>
+              <Card class="mb-4">
+                <CardContent>
+                  <CardTitle
+                    class="capitalize"
+                    :text="$t('pages.setting.sections.bot_id.title')"
+                  />
+                  <p class="mb-2">
+                    {{ $t('pages.setting.sections.bot_id.description') }}
+                  </p>
+                  <div class="flex">
+                    <FormTextInput v-model="id" class="w-full md:w-1/3">
+                      <template #suffix>
+                        <Button
+                          type="opposite"
+                          class="flex space-x-1 border-none"
+                        >
+                          <icon-ic:baseline-content-copy />
+                          <span>{{ $t('others.copy') }}</span>
+                        </Button>
+                      </template>
+                    </FormTextInput>
+                  </div>
+                </CardContent>
+                <CardFooter class="justify-between">
+                  <p>
+                    {{ $t('pages.setting.sections.bot_id.footer') }}
+                  </p>
+                </CardFooter>
+              </Card>
+            </TabPanel>
+            <TabPanel>
+              <Card
+                :class="{
+                  'mb-4': true,
+                  'border-red-500 dark:border-red-500': !enableSpamProtection,
+                }"
+              >
+                <CardContent>
+                  <CardTitle
+                    class="capitalize"
+                    :text="$t('pages.setting.sections.protection_spam.title')"
+                  />
+                  <p class="mb-2">
+                    {{
+                      $t('pages.setting.sections.protection_spam.description')
+                    }}
+                  </p>
+                  <div class="flex">
+                    <FormSwitch v-model="enableSpamProtection">
+                      <span class="capitalize">{{
+                        enableSpamProtection
+                          ? $t('others.enabled')
+                          : $t('others.disabled')
+                      }}</span>
+                    </FormSwitch>
+                  </div>
+                </CardContent>
+                <CardFooter class="justify-between">
+                  <p>
+                    {{ $t('pages.setting.sections.protection_spam.footer') }}
+                  </p>
+                </CardFooter>
+              </Card>
+            </TabPanel>
+            <TabPanel>
+              <Card class="mb-4">
+                <CardContent>
+                  <CardTitle
+                    class="capitalize"
+                    :text="
+                      $t(
+                        'pages.setting.sections.advanced_enable_advanced.title'
+                      )
+                    "
+                  />
+                  <p class="mb-2">
+                    {{
+                      $t(
+                        'pages.setting.sections.advanced_enable_advanced.description'
+                      )
+                    }}
