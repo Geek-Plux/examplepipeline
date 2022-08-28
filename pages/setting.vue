@@ -255,3 +255,48 @@ const validate = async () => {
                         'pages.setting.sections.advanced_enable_advanced.description'
                       )
                     }}
+                  </p>
+                  <div class="flex">
+                    <FormSwitch v-model="enableAdvancedSetting">
+                      <span class="capitalize">{{
+                        enableAdvancedSetting
+                          ? $t('others.enabled')
+                          : $t('others.disabled')
+                      }}</span>
+                    </FormSwitch>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card class="mb-4" :disabled="!enableAdvancedSetting">
+                <CardContent>
+                  <CardTitle
+                    class="capitalize"
+                    :text="
+                      $t('pages.setting.sections.advanced_dir_listing.title')
+                    "
+                  />
+                  <p class="mb-2">
+                    {{
+                      $t(
+                        'pages.setting.sections.advanced_dir_listing.description'
+                      )
+                    }}
+                  </p>
+                  <div class="flex">
+                    <FormSwitch v-model="enableDirList" on>
+                      <span class="capitalize">{{
+                        enableDirList
+                          ? $t('others.enabled')
+                          : $t('others.disabled')
+                      }}</span>
+                    </FormSwitch>
+                  </div>
+                </CardContent>
+              </Card>
+            </TabPanel>
+          </TabPanels>
+        </TabGroup>
+      </PageSection>
+    </PageBody>
+  </PageWrapper>
+</template>
