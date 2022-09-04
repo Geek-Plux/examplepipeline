@@ -1,2 +1,4 @@
 export default defineNuxtPlugin((nuxtApp) => {
-  // whe
+  // when page redirect on mobile device, close drawer navbar
+  nuxtApp.hook('page:finish', () => {
+    con
