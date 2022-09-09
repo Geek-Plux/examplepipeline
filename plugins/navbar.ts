@@ -4,4 +4,6 @@ export default defineNuxtPlugin((nuxtApp) => {
     const showDrawer = useState<boolean>('navbar.showDrawer', () => false)
     const showOptions = useState<boolean>('navbar.showOptions', () => false)
     showDrawer.value = false
-    showOptions.value 
+    showOptions.value = false
+  })
+})
