@@ -2153,3 +2153,114 @@ packages:
     peerDependencies:
       petite-vue-i18n: next
       vite: ^2.9.0
+      vue-i18n: next
+    peerDependenciesMeta:
+      petite-vue-i18n:
+        optional: true
+      vue-i18n:
+        optional: true
+    dependencies:
+      '@intlify/bundle-utils': 3.4.0_vue-i18n@9.2.2
+      '@intlify/shared': 9.3.0-beta.16
+      '@rollup/pluginutils': 4.2.1
+      debug: 4.3.4
+      fast-glob: 3.2.12
+      source-map: 0.6.1
+      vite: 3.0.0-beta.10_sass@1.53.0
+      vue-i18n: 9.2.2_vue@3.2.45
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@intlify/vue-devtools/9.2.2:
+    resolution: {integrity: sha512-+dUyqyCHWHb/UcvY1MlIpO87munedm3Gn6E9WWYdWrMuYLcoIoOEVDWSS8xSwtlPU+kA+MEQTP6Q1iI/ocusJg==}
+    engines: {node: '>= 14'}
+    dependencies:
+      '@intlify/core-base': 9.2.2
+      '@intlify/shared': 9.2.2
+    dev: true
+
+  /@intlify/vue-i18n-loader/5.0.0_vue-i18n@9.2.2+vue@3.2.45:
+    resolution: {integrity: sha512-rlqWLHrXdchvI9jsI5XA7/3UqE+4pgBD40d+9DWdyRkKeXfMMO9lmkp21jOKC8afWcK0NW5qzYTjp+JEJ6ymZA==}
+    engines: {node: '>= 12'}
+    peerDependencies:
+      petite-vue-i18n: next
+      vue: ^3.0.0
+      vue-i18n: next
+    peerDependenciesMeta:
+      petite-vue-i18n:
+        optional: true
+      vue-i18n:
+        optional: true
+    dependencies:
+      '@intlify/bundle-utils': 3.4.0_vue-i18n@9.2.2
+      '@intlify/shared': 9.3.0-beta.16
+      js-yaml: 4.1.0
+      json5: 2.2.3
+      loader-utils: 2.0.4
+      vue: 3.2.45
+      vue-i18n: 9.2.2_vue@3.2.45
+    dev: true
+
+  /@ioredis/commands/1.2.0:
+    resolution: {integrity: sha512-Sx1pU8EM64o2BrqNpEO1CNLtKQwyhuXuqyfH7oGKCk+1a33d2r5saW8zNwm3j6BTExtjrv2BxTgzzkMwts6vGg==}
+    dev: true
+
+  /@jridgewell/gen-mapping/0.1.1:
+    resolution: {integrity: sha512-sQXCasFk+U8lWYEe66WxRDOE9PjVz4vSM51fTu3Hw+ClTpUSQb718772vH3pyS5pShp6lvQM7SxgIDXXXmOX7w==}
+    engines: {node: '>=6.0.0'}
+    dependencies:
+      '@jridgewell/set-array': 1.1.2
+      '@jridgewell/sourcemap-codec': 1.4.14
+    dev: true
+
+  /@jridgewell/gen-mapping/0.3.2:
+    resolution: {integrity: sha512-mh65xKQAzI6iBcFzwv28KVWSmCkdRBWoOh+bYQGW3+6OZvbbN3TqMGo5hqYxQniRcH9F2VZIoJCm4pa3BPDK/A==}
+    engines: {node: '>=6.0.0'}
+    dependencies:
+      '@jridgewell/set-array': 1.1.2
+      '@jridgewell/sourcemap-codec': 1.4.14
+      '@jridgewell/trace-mapping': 0.3.17
+    dev: true
+
+  /@jridgewell/resolve-uri/3.1.0:
+    resolution: {integrity: sha512-F2msla3tad+Mfht5cJq7LSXcdudKTWCVYUgw6pLFOOHSTtZlj6SWNYAp+AhuqLmWdBO2X5hPrLcu8cVP8fy28w==}
+    engines: {node: '>=6.0.0'}
+    dev: true
+
+  /@jridgewell/set-array/1.1.2:
+    resolution: {integrity: sha512-xnkseuNADM0gt2bs+BvhO0p78Mk762YnZdsuzFV018NoG1Sj1SCQvpSqa7XUaTam5vAGasABV9qXASMKnFMwMw==}
+    engines: {node: '>=6.0.0'}
+    dev: true
+
+  /@jridgewell/source-map/0.3.2:
+    resolution: {integrity: sha512-m7O9o2uR8k2ObDysZYzdfhb08VuEml5oWGiosa1VdaPZ/A6QyPkAJuwN0Q1lhULOf6B7MtQmHENS743hWtCrgw==}
+    dependencies:
+      '@jridgewell/gen-mapping': 0.3.2
+      '@jridgewell/trace-mapping': 0.3.17
+    dev: true
+
+  /@jridgewell/sourcemap-codec/1.4.14:
+    resolution: {integrity: sha512-XPSJHWmi394fuUuzDnGz1wiKqWfo1yXecHQMRf2l6hztTO+nPru658AyDngaBe7isIxEkRsPR3FZh+s7iVa4Uw==}
+    dev: true
+
+  /@jridgewell/trace-mapping/0.3.17:
+    resolution: {integrity: sha512-MCNzAp77qzKca9+W/+I0+sEpaUnZoeasnghNeVc41VZCEKaCH73Vq3BZZ/SzWIgrqE4H4ceI+p+b6C0mHf9T4g==}
+    dependencies:
+      '@jridgewell/resolve-uri': 3.1.0
+      '@jridgewell/sourcemap-codec': 1.4.14
+    dev: true
+
+  /@jridgewell/trace-mapping/0.3.9:
+    resolution: {integrity: sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==}
+    dependencies:
+      '@jridgewell/resolve-uri': 3.1.0
+      '@jridgewell/sourcemap-codec': 1.4.14
+    dev: true
+
+  /@mapbox/node-pre-gyp/1.0.10:
+    resolution: {integrity: sha512-4ySo4CjzStuprMwk35H5pPbkymjv1SF3jGLj6rAHp/xT/RF7TL7bd9CTm1xDY49K2qF7jmR/g7k+SkLETP6opA==}
+    hasBin: true
+    dependencies:
+      detect-libc: 2.0.1
+      https-proxy-agent: 5.0.1
