@@ -2264,3 +2264,103 @@ packages:
     dependencies:
       detect-libc: 2.0.1
       https-proxy-agent: 5.0.1
+      make-dir: 3.1.0
+      node-fetch: 2.6.7
+      nopt: 5.0.0
+      npmlog: 5.0.1
+      rimraf: 3.0.2
+      semver: 7.3.8
+      tar: 6.1.13
+    transitivePeerDependencies:
+      - encoding
+      - supports-color
+    dev: true
+
+  /@netlify/functions/1.4.0:
+    resolution: {integrity: sha512-gy7ULTIRroc2/jyFVGx1djCmmBMVisIwrvkqggq5B6iDcInRSy2Tpkm+V5C63hKJVkNRskKWtLQKm9ecCaQTjA==}
+    engines: {node: '>=8.3.0'}
+    dependencies:
+      is-promise: 4.0.0
+    dev: true
+
+  /@nodelib/fs.scandir/2.1.5:
+    resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
+    engines: {node: '>= 8'}
+    dependencies:
+      '@nodelib/fs.stat': 2.0.5
+      run-parallel: 1.2.0
+    dev: true
+
+  /@nodelib/fs.stat/2.0.5:
+    resolution: {integrity: sha512-RkhPPp2zrqDAQA/2jNhnztcPAlv64XdhIp7a7454A5ovI7Bukxgt7MX7udwAu3zg1DcpPU0rz3VV1SeaqvY4+A==}
+    engines: {node: '>= 8'}
+    dev: true
+
+  /@nodelib/fs.walk/1.2.8:
+    resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
+    engines: {node: '>= 8'}
+    dependencies:
+      '@nodelib/fs.scandir': 2.1.5
+      fastq: 1.14.0
+    dev: true
+
+  /@nuxt/content/2.4.2:
+    resolution: {integrity: sha512-Nz2ZcC7R505UY5NQN+WE1pZ4ie8PBBr12qJHFAZqhWCXenzsdb87p48fvr6Zhlj8CyCTQqWg0B2fs7Lyg/CKwg==}
+    dependencies:
+      '@nuxt/kit': 3.1.1
+      consola: 2.15.3
+      defu: 6.1.2
+      destr: 1.2.2
+      detab: 3.0.2
+      html-tags: 3.2.0
+      json5: 2.2.3
+      knitwork: 1.0.0
+      listhen: 1.0.2
+      mdast-util-to-hast: 12.2.6
+      mdurl: 1.0.1
+      ohash: 1.0.0
+      pathe: 1.1.0
+      property-information: 6.2.0
+      rehype-external-links: 2.0.1
+      rehype-raw: 6.1.1
+      rehype-slug: 5.1.0
+      rehype-sort-attribute-values: 4.0.0
+      rehype-sort-attributes: 4.0.0
+      remark-emoji: 3.0.2
+      remark-gfm: 3.0.1
+      remark-mdc: 1.1.3
+      remark-parse: 10.0.1
+      remark-rehype: 10.1.0
+      remark-squeeze-paragraphs: 5.0.1
+      scule: 1.0.0
+      shiki-es: 0.2.0
+      slugify: 1.6.5
+      socket.io-client: 4.5.4
+      ufo: 1.0.1
+      unified: 10.1.2
+      unist-builder: 3.0.1
+      unist-util-position: 4.0.4
+      unist-util-visit: 4.1.2
+      unstorage: 1.0.1
+      ws: 8.12.0
+    transitivePeerDependencies:
+      - bufferutil
+      - rollup
+      - supports-color
+      - utf-8-validate
+    dev: true
+
+  /@nuxt/devalue/2.0.0:
+    resolution: {integrity: sha512-YBI/6o2EBz02tdEJRBK8xkt3zvOFOWlLBf7WKYGBsSYSRtjjgrqPe2skp6VLLmKx5WbHHDNcW+6oACaurxGzeA==}
+    dev: true
+
+  /@nuxt/kit-edge/3.1.1-rc.0-27911047.7d812db:
+    resolution: {integrity: sha512-jS8kcW9c2JqEpbTFWnUVg0s4VtD+YLvCGIofxhHNS86JMQhzMt67L9q2aXJaemJ2sbbvzCX5rOPJPjNQfJia/A==}
+    engines: {node: ^14.16.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
+    dependencies:
+      '@nuxt/schema': /@nuxt/schema-edge/3.1.1-rc.0-27911047.7d812db
+      c12: 1.1.0
+      consola: 2.15.3
+      defu: 6.1.2
+      globby: 13.1.3
+      hash-sum: 2.0.0
