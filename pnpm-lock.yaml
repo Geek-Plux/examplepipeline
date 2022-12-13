@@ -7705,3 +7705,95 @@ packages:
   /micromark-extension-gfm-autolink-literal/1.0.3:
     resolution: {integrity: sha512-i3dmvU0htawfWED8aHMMAzAVp/F0Z+0bPh3YrbTPPL1v4YAlCZpy5rBO5p0LPYiZo0zFVkoYh7vDU7yQSiCMjg==}
     dependencies:
+      micromark-util-character: 1.1.0
+      micromark-util-sanitize-uri: 1.1.0
+      micromark-util-symbol: 1.0.1
+      micromark-util-types: 1.0.2
+      uvu: 0.5.6
+    dev: true
+
+  /micromark-extension-gfm-footnote/1.0.4:
+    resolution: {integrity: sha512-E/fmPmDqLiMUP8mLJ8NbJWJ4bTw6tS+FEQS8CcuDtZpILuOb2kjLqPEeAePF1djXROHXChM/wPJw0iS4kHCcIg==}
+    dependencies:
+      micromark-core-commonmark: 1.0.6
+      micromark-factory-space: 1.0.0
+      micromark-util-character: 1.1.0
+      micromark-util-normalize-identifier: 1.0.0
+      micromark-util-sanitize-uri: 1.1.0
+      micromark-util-symbol: 1.0.1
+      micromark-util-types: 1.0.2
+      uvu: 0.5.6
+    dev: true
+
+  /micromark-extension-gfm-strikethrough/1.0.4:
+    resolution: {integrity: sha512-/vjHU/lalmjZCT5xt7CcHVJGq8sYRm80z24qAKXzaHzem/xsDYb2yLL+NNVbYvmpLx3O7SYPuGL5pzusL9CLIQ==}
+    dependencies:
+      micromark-util-chunked: 1.0.0
+      micromark-util-classify-character: 1.0.0
+      micromark-util-resolve-all: 1.0.0
+      micromark-util-symbol: 1.0.1
+      micromark-util-types: 1.0.2
+      uvu: 0.5.6
+    dev: true
+
+  /micromark-extension-gfm-table/1.0.5:
+    resolution: {integrity: sha512-xAZ8J1X9W9K3JTJTUL7G6wSKhp2ZYHrFk5qJgY/4B33scJzE2kpfRL6oiw/veJTbt7jiM/1rngLlOKPWr1G+vg==}
+    dependencies:
+      micromark-factory-space: 1.0.0
+      micromark-util-character: 1.1.0
+      micromark-util-symbol: 1.0.1
+      micromark-util-types: 1.0.2
+      uvu: 0.5.6
+    dev: true
+
+  /micromark-extension-gfm-tagfilter/1.0.1:
+    resolution: {integrity: sha512-Ty6psLAcAjboRa/UKUbbUcwjVAv5plxmpUTy2XC/3nJFL37eHej8jrHrRzkqcpipJliuBH30DTs7+3wqNcQUVA==}
+    dependencies:
+      micromark-util-types: 1.0.2
+    dev: true
+
+  /micromark-extension-gfm-task-list-item/1.0.3:
+    resolution: {integrity: sha512-PpysK2S1Q/5VXi72IIapbi/jliaiOFzv7THH4amwXeYXLq3l1uo8/2Be0Ac1rEwK20MQEsGH2ltAZLNY2KI/0Q==}
+    dependencies:
+      micromark-factory-space: 1.0.0
+      micromark-util-character: 1.1.0
+      micromark-util-symbol: 1.0.1
+      micromark-util-types: 1.0.2
+      uvu: 0.5.6
+    dev: true
+
+  /micromark-extension-gfm/2.0.1:
+    resolution: {integrity: sha512-p2sGjajLa0iYiGQdT0oelahRYtMWvLjy8J9LOCxzIQsllMCGLbsLW+Nc+N4vi02jcRJvedVJ68cjelKIO6bpDA==}
+    dependencies:
+      micromark-extension-gfm-autolink-literal: 1.0.3
+      micromark-extension-gfm-footnote: 1.0.4
+      micromark-extension-gfm-strikethrough: 1.0.4
+      micromark-extension-gfm-table: 1.0.5
+      micromark-extension-gfm-tagfilter: 1.0.1
+      micromark-extension-gfm-task-list-item: 1.0.3
+      micromark-util-combine-extensions: 1.0.0
+      micromark-util-types: 1.0.2
+    dev: true
+
+  /micromark-factory-destination/1.0.0:
+    resolution: {integrity: sha512-eUBA7Rs1/xtTVun9TmV3gjfPz2wEwgK5R5xcbIM5ZYAtvGF6JkyaDsj0agx8urXnO31tEO6Ug83iVH3tdedLnw==}
+    dependencies:
+      micromark-util-character: 1.1.0
+      micromark-util-symbol: 1.0.1
+      micromark-util-types: 1.0.2
+    dev: true
+
+  /micromark-factory-label/1.0.2:
+    resolution: {integrity: sha512-CTIwxlOnU7dEshXDQ+dsr2n+yxpP0+fn271pu0bwDIS8uqfFcumXpj5mLn3hSC8iw2MUr6Gx8EcKng1dD7i6hg==}
+    dependencies:
+      micromark-util-character: 1.1.0
+      micromark-util-symbol: 1.0.1
+      micromark-util-types: 1.0.2
+      uvu: 0.5.6
+    dev: true
+
+  /micromark-factory-space/1.0.0:
+    resolution: {integrity: sha512-qUmqs4kj9a5yBnk3JMLyjtWYN6Mzfcx8uJfi5XAveBniDevmZasdGBba5b4QsvRcAkmvGo5ACmSUmyGiKTLZew==}
+    dependencies:
+      micromark-util-character: 1.1.0
+      micromark-util-types: 1.0.2
