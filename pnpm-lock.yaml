@@ -11006,3 +11006,96 @@ packages:
       mlly: 1.1.0
       pathe: 1.1.0
       picocolors: 1.0.0
+      source-map: 0.6.1
+      source-map-support: 0.5.21
+      vite: 4.0.4_sass@1.53.0
+    transitivePeerDependencies:
+      - '@types/node'
+      - less
+      - sass
+      - stylus
+      - sugarss
+      - supports-color
+      - terser
+    dev: true
+
+  /vite-plugin-checker/0.5.5_6wv62fpji7whzkophcofqgcbq4:
+    resolution: {integrity: sha512-BLaRlBmiVn3Fg/wR9A0+YNwgXVteFJaH8rCIiIgYQcQ50jc3oVe2m8i0xxG5geq36UttNJsAj7DpDelN7/KjOg==}
+    engines: {node: '>=14.16'}
+    peerDependencies:
+      eslint: '>=7'
+      meow: ^9.0.0
+      optionator: ^0.9.1
+      stylelint: '>=13'
+      typescript: '*'
+      vite: '>=2.0.0'
+      vls: '*'
+      vti: '*'
+      vue-tsc: '*'
+    peerDependenciesMeta:
+      eslint:
+        optional: true
+      meow:
+        optional: true
+      optionator:
+        optional: true
+      stylelint:
+        optional: true
+      typescript:
+        optional: true
+      vls:
+        optional: true
+      vti:
+        optional: true
+      vue-tsc:
+        optional: true
+    dependencies:
+      '@babel/code-frame': 7.18.6
+      ansi-escapes: 4.3.2
+      chalk: 4.1.2
+      chokidar: 3.5.3
+      commander: 8.3.0
+      eslint: 8.32.0
+      fast-glob: 3.2.12
+      fs-extra: 11.1.0
+      lodash.debounce: 4.0.8
+      lodash.pick: 4.4.0
+      npm-run-path: 4.0.1
+      strip-ansi: 6.0.1
+      tiny-invariant: 1.3.1
+      typescript: 4.9.4
+      vite: 4.0.4_sass@1.53.0
+      vscode-languageclient: 7.0.0
+      vscode-languageserver: 7.0.0
+      vscode-languageserver-textdocument: 1.0.8
+      vscode-uri: 3.0.6
+      vue-tsc: 1.0.12_typescript@4.9.4
+    dev: true
+
+  /vite-plugin-windicss/1.8.8_vite@3.0.0-beta.10:
+    resolution: {integrity: sha512-iyu+ZX0NmhNEUaLPv7xtC+EFRBpWMmw0nhd9a9upayfuNG/thwslKiQKmRB7U/dG0k/2oWLvPDvN/B9i7oRgSA==}
+    peerDependencies:
+      vite: ^2.0.1 || ^3.0.0
+    dependencies:
+      '@windicss/plugin-utils': 1.8.8
+      debug: 4.3.4
+      kolorist: 1.6.0
+      vite: 3.0.0-beta.10_sass@1.53.0
+      windicss: 3.5.6
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /vite/3.0.0-beta.10_sass@1.53.0:
+    resolution: {integrity: sha512-QtzSQVuhNLDp9j4wNdVT3aDyWyvoAL4QxBU/lnMyEKqTzYrXdqyHpFmfWW/wo/0uTluZKzbsUm89eQq2RxiKMg==}
+    engines: {node: '>=14.18.0'}
+    hasBin: true
+    peerDependencies:
+      less: '*'
+      sass: '*'
+      stylus: '*'
+      terser: ^5.4.0
+    peerDependenciesMeta:
+      less:
+        optional: true
+      sass:
