@@ -19,4 +19,7 @@ export const useCounter = defineStore('counter', {
       this.count = 0
     },
     increment2x() {
-      thi
+      this.count *= 2
+    },
+  },
+})
