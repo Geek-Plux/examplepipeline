@@ -13,4 +13,10 @@ export const useCounter = defineStore('counter', {
       this.count++
     },
     decrement() {
-      t
+      this.count--
+    },
+    reset() {
+      this.count = 0
+    },
+    increment2x() {
+      thi
