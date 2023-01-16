@@ -5,4 +5,10 @@ export interface IIdentityState {
   lastName: string
 }
 
-export const useIdentity = defineStore('identit
+export const useIdentity = defineStore('identity', {
+  state: (): IIdentityState => ({
+    firstName: 'Alfian',
+    lastName: 'Dwi',
+  }),
+  actions: {
+  
