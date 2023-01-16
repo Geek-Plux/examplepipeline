@@ -1,4 +1,8 @@
 import { defineStore } from 'pinia'
 
 export interface IIdentityState {
-  fir
+  firstName: string
+  lastName: string
+}
+
+export const useIdentity = defineStore('identit
