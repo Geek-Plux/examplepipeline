@@ -11,4 +11,7 @@ export const useIdentity = defineStore('identity', {
     lastName: 'Dwi',
   }),
   actions: {
-  
+    setFirstName(firstName: string) {
+      this.firstName = firstName
+    },
+    setLastN
