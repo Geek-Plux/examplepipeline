@@ -18,4 +18,9 @@ export const useIdentity = defineStore('identity', {
       this.lastName = lastName
     },
     reset() {
-      this.first
+      this.firstName = 'Alfian'
+      this.lastName = 'Dwi'
+    },
+  },
+  getters: {
+    f
