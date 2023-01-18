@@ -1,3 +1,5 @@
 import { fileURLToPath } from 'node:url'
 import { describe, expect, it } from 'vitest'
-im
+import { setup, $fetch, isDev } from '@nuxt/test-utils-edge'
+
+describe('exam
