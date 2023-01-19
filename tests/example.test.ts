@@ -9,4 +9,9 @@ describe('example', async () => {
   })
 
   it('Renders Nuxt 3 Awesome Starter', async () => {
-    expect(await $fetch('/')).toMatch('Nuxt
+    expect(await $fetch('/')).toMatch('Nuxt 3 Awesome Starter')
+  })
+
+  if (isDev()) {
+    it('[dev] ensure vite client script is added', async () => {
+      expect(
