@@ -5,4 +5,8 @@ import { setup, $fetch, isDev } from '@nuxt/test-utils-edge'
 describe('example', async () => {
   await setup({
     rootDir: fileURLToPath(new URL('..', import.meta.url)),
-    serv
+    server: true,
+  })
+
+  it('Renders Nuxt 3 Awesome Starter', async () => {
+    expect(await $fetch('/')).toMatch('Nuxt
