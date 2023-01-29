@@ -49,3 +49,67 @@ const translateFile = async (file, locale) => {
     }
   }
   await eachCurrLevel(file, '')
+
+  // parse
+  const parseObjLevel = {}
+  for (const key in translatedRes) {
+    let value = translatedRes[key]
+    const keySplit = key.split('.')
+    const keyLevel = keySplit.length
+
+    if (typeof value === 'string') value = `${value}`.toLowerCase()
+
+    let currParent = parseObjLevel
+    for (let i = 0; i < keyLevel; i++) {
+      const currKey = keySplit[i]
+      if (!currParent[currKey]) currParent[currKey] = {}
+      if (i === keyLevel - 1) currParent[currKey] = value
+      currParent = currParent[currKey]
+    }
+
+    parsedObj = parseObjLevel
+  }
+
+  // return
+  return parseObjLevel
+}
+
+// vars
+const cwd = process.cwd()
+const localePath = path.join(cwd, getArg(0, './locales'))
+const engLocale = path.join(localePath, getArg(1, 'en.yml'))
+const listLocaleToTranslate = getFiles(localePath).filter(
+  (l) => l.lang !== 'en'
+)
+
+// main funcs
+async function main() {
+  // info
+  console.log('==============================================')
+  console.log(`Target Locales Path: ${localePath}`)
+  console.log(`Main Locale: ${engLocale}`)
+  console.log(
+    `Locales to translate: ${listLocaleToTranslate.map((f) => f.lang)}`
+  )
+
+  // translating
+  console.log('==============================================')
+  console.log(`Starting translate with engine "${translate.engine}"...`)
+  for (const locale of listLocaleToTranslate) {
+    console.log(`Translating ${locale.lang}...`)
+    try {
+      // load file
+      const file = yaml.load(fs.readFileSync(engLocale, 'utf8'))
+
+      // translate
+      const t = await translateFile(file, locale)
+
+      // save to file
+      fs.writeFileSync(locale.path, yaml.dump(t))
+    } catch (e) {
+      console.error(e)
+    }
+  }
+}
+
+main()
