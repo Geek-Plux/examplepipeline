@@ -10,4 +10,4 @@ export function AppSetup() {
 
   // vue transition bug handle
   const messages = [
-    `Uncaught 
+    `Uncaught NotFoundError: Failed to execute 'insertBefore' on 'Node': The node before which the new 
