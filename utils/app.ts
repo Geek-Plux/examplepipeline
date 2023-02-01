@@ -6,4 +6,8 @@ export function AppSetup() {
   const themeManager = ThemeManager()
 
   // use language manager
-  const l
+  const languageManager = LanguageManager()
+
+  // vue transition bug handle
+  const messages = [
+    `Uncaught 
