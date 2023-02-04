@@ -14,4 +14,7 @@ export function AppSetup() {
     `NotFoundError: The object can not be found here.`, // safari
   ]
   if (typeof window !== 'undefined') {
-    window.addEvent
+    window.addEventListener('error', (ev) => {
+      if (messages.includes(ev.message)) {
+        ev.preventDefault()
+   
