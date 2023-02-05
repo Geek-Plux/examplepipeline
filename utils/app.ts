@@ -17,4 +17,14 @@ export function AppSetup() {
     window.addEventListener('error', (ev) => {
       if (messages.includes(ev.message)) {
         ev.preventDefault()
-   
+        window.location.reload()
+      }
+    })
+  }
+
+  // return
+  return {
+    themeManager,
+    languageManager,
+  }
+}
