@@ -2,4 +2,8 @@ export type IThemeSettingOptions = 'dark' | 'light' | 'system' | 'realtime'
 
 export type ITheme = 'dark' | 'light'
 
-export con
+export const availableThemes: {
+  key: IThemeSettingOptions
+  text: string
+}[] = [
+  { key: 'light
