@@ -6,4 +6,7 @@ export const availableThemes: {
   key: IThemeSettingOptions
   text: string
 }[] = [
-  { key: 'light
+  { key: 'light', text: 'Light' },
+  { key: 'dark', text: 'Dark' },
+  { key: 'system', text: 'System' },
+  { key: 'realtime', t
