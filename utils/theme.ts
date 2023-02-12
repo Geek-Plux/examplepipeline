@@ -14,4 +14,7 @@ export const availableThemes: {
 
 export function ThemeManager() {
   // composable
-  const themeUserSetting
+  const themeUserSetting = useCookie<IThemeSettingOptions>('theme')
+
+  // methods
+  const getUserSet
