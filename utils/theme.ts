@@ -9,4 +9,9 @@ export const availableThemes: {
   { key: 'light', text: 'Light' },
   { key: 'dark', text: 'Dark' },
   { key: 'system', text: 'System' },
-  { key: 'realtime', t
+  { key: 'realtime', text: 'Realtime' },
+]
+
+export function ThemeManager() {
+  // composable
+  const themeUserSetting
