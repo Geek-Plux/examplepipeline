@@ -22,4 +22,11 @@ export function ThemeManager() {
   const getSystemTheme = (): ITheme => {
     try {
       return window
-        ? window.matchMedia('(prefers-color-scheme: dark)').matche
+        ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          ? 'dark'
+          : 'light'
+        : 'dark'
+    } catch (error) {
+      return 'dark'
+    }
+  
