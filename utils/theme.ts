@@ -17,4 +17,7 @@ export function ThemeManager() {
   const themeUserSetting = useCookie<IThemeSettingOptions>('theme')
 
   // methods
-  const getUserSet
+  const getUserSetting = (): IThemeSettingOptions =>
+    themeUserSetting.value || 'system'
+  const getSystemTheme = (): ITheme => {
+ 
