@@ -20,4 +20,6 @@ export function ThemeManager() {
   const getUserSetting = (): IThemeSettingOptions =>
     themeUserSetting.value || 'system'
   const getSystemTheme = (): ITheme => {
- 
+    try {
+      return window
+        ? window.matchMedia('(prefers-color-scheme: dark)').matche
