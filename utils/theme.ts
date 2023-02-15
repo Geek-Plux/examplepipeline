@@ -29,4 +29,8 @@ export function ThemeManager() {
     } catch (error) {
       return 'dark'
     }
-  
+  }
+  const getRealtimeTheme = (): ITheme => {
+    const now = new Date()
+    const hour = now.getHours()
+    const
