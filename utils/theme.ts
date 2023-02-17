@@ -33,4 +33,8 @@ export function ThemeManager() {
   const getRealtimeTheme = (): ITheme => {
     const now = new Date()
     const hour = now.getHours()
-    const
+    const isNight = hour >= 17 || hour <= 5
+    return isNight ? 'dark' : 'light'
+  }
+
+  // stat
