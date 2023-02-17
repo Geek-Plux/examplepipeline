@@ -37,4 +37,7 @@ export function ThemeManager() {
     return isNight ? 'dark' : 'light'
   }
 
-  // stat
+  // state
+  const themeSetting = useState<IThemeSettingOptions>('theme.setting', () =>
+    getUserSetting()
+ 
