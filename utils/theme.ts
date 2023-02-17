@@ -40,4 +40,6 @@ export function ThemeManager() {
   // state
   const themeSetting = useState<IThemeSettingOptions>('theme.setting', () =>
     getUserSetting()
- 
+  )
+  const themeCurrent = useState<ITheme>('theme.current', () =>
+    process.client ? get
