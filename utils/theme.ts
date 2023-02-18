@@ -46,4 +46,6 @@ export function ThemeManager() {
   )
 
   // wathcers
-  const onThemeSettingChange = (themeSetting:
+  const onThemeSettingChange = (themeSetting: IThemeSettingOptions) => {
+    themeUserSetting.value = themeSetting
+    if (themeSetting === 
