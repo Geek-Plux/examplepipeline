@@ -42,4 +42,8 @@ export function ThemeManager() {
     getUserSetting()
   )
   const themeCurrent = useState<ITheme>('theme.current', () =>
-    process.client ? get
+    process.client ? getSystemTheme() : 'light'
+  )
+
+  // wathcers
+  const onThemeSettingChange = (themeSetting:
