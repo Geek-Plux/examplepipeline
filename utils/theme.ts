@@ -48,4 +48,6 @@ export function ThemeManager() {
   // wathcers
   const onThemeSettingChange = (themeSetting: IThemeSettingOptions) => {
     themeUserSetting.value = themeSetting
-    if (themeSetting === 
+    if (themeSetting === 'realtime') {
+      themeCurrent.value = getRealtimeTheme()
+    } else if (themeSetting === 'sy
