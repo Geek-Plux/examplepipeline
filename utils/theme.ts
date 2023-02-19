@@ -50,4 +50,7 @@ export function ThemeManager() {
     themeUserSetting.value = themeSetting
     if (themeSetting === 'realtime') {
       themeCurrent.value = getRealtimeTheme()
-    } else if (themeSetting === 'sy
+    } else if (themeSetting === 'system') {
+      themeCurrent.value = getSystemTheme()
+    } else {
+      themeCurrent.value = themeSetti
