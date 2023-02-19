@@ -53,4 +53,8 @@ export function ThemeManager() {
     } else if (themeSetting === 'system') {
       themeCurrent.value = getSystemTheme()
     } else {
-      themeCurrent.value = themeSetti
+      themeCurrent.value = themeSetting
+    }
+  }
+  watch(themeSetting, (val) => onThemeSettingChange(val))
+  const onThemeSystemCha
