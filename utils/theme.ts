@@ -59,4 +59,9 @@ export function ThemeManager() {
   watch(themeSetting, (val) => onThemeSettingChange(val))
   const onThemeSystemChange = () => {
     if (themeSetting.value === 'system') {
-      themeCurrent.value = getSystemThe
+      themeCurrent.value = getSystemTheme()
+    }
+  }
+  const onRealtimeCheck = () => {
+    if (themeSetting.value === 'realtime') {
+      the
