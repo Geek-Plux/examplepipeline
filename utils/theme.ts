@@ -79,4 +79,5 @@ export function ThemeManager() {
   onBeforeMount(() => init())
   onMounted(() => {
     window
- 
+      .matchMedia('(prefers-color-scheme: dark)')
+      .addEventListener('change', onThemeSystemChange)
