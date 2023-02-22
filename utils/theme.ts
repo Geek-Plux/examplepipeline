@@ -64,4 +64,10 @@ export function ThemeManager() {
   }
   const onRealtimeCheck = () => {
     if (themeSetting.value === 'realtime') {
-      the
+      themeCurrent.value = getRealtimeTheme()
+    }
+  }
+
+  // init theme
+  const init = () => {
+    themeSe
