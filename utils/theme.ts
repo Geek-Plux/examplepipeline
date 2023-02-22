@@ -70,4 +70,9 @@ export function ThemeManager() {
 
   // init theme
   const init = () => {
-    themeSe
+    themeSetting.value = getUserSetting()
+  }
+  onThemeSettingChange(themeSetting.value)
+
+  // lifecycle
+  l
