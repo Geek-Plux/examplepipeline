@@ -81,3 +81,8 @@ export function ThemeManager() {
     window
       .matchMedia('(prefers-color-scheme: dark)')
       .addEventListener('change', onThemeSystemChange)
+    intervalCheckTime = setInterval(onRealtimeCheck, 1000)
+  })
+  onBeforeUnmount(() => {
+    window
+     
