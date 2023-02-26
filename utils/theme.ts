@@ -85,4 +85,6 @@ export function ThemeManager() {
   })
   onBeforeUnmount(() => {
     window
-     
+      .matchMedia('(prefers-color-scheme: dark)')
+      .removeEventListener('change', onThemeSystemChange)
+    if
