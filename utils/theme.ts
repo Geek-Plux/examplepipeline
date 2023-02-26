@@ -87,4 +87,9 @@ export function ThemeManager() {
     window
       .matchMedia('(prefers-color-scheme: dark)')
       .removeEventListener('change', onThemeSystemChange)
-    if
+    if (intervalCheckTime) clearInterval(intervalCheckTime)
+  })
+
+  return {
+    themeSetting,
+    them
